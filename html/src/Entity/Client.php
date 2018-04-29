@@ -34,9 +34,15 @@ class Client
      */
     private $person;
 
+    /**
+     * @ORM\OneToMany(targetEntity="App\Entity\Basket", mappedBy="client", orphanRemoval=true)
+     */
+    private $baskets;
+
     public function __construct()
     {
         $this->address = new ArrayCollection();
+        $this->baskets = new ArrayCollection();
     }
 
     public function getId()
@@ -95,6 +101,37 @@ class Client
     public function setPerson(Person $person): self
     {
         $this->person = $person;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Basket[]
+     */
+    public function getBaskets(): Collection
+    {
+        return $this->baskets;
+    }
+
+    public function addBasket(Basket $basket): self
+    {
+        if (!$this->baskets->contains($basket)) {
+            $this->baskets[] = $basket;
+            $basket->setClient($this);
+        }
+
+        return $this;
+    }
+
+    public function removeBasket(Basket $basket): self
+    {
+        if ($this->baskets->contains($basket)) {
+            $this->baskets->removeElement($basket);
+            // set the owning side to null (unless already changed)
+            if ($basket->getClient() === $this) {
+                $basket->setClient(null);
+            }
+        }
 
         return $this;
     }
