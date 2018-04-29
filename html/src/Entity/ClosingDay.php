@@ -10,13 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
 class ClosingDay
 {
     /**
-     * @ORM\Id()
-     * @ORM\GeneratedValue()
-     * @ORM\Column(type="integer")
-     */
-    private $id;
-
-    /**
+     * @Id
      * @ORM\Column(type="date")
      */
     private $closingDate;
@@ -26,10 +20,6 @@ class ClosingDay
      */
     private $reason;
 
-    public function getId()
-    {
-        return $this->id;
-    }
 
     public function getClosingDate(): ?\DateTimeInterface
     {
