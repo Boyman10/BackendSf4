@@ -3,11 +3,11 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-
+use Symfony\Component\Security\Core\User\UserInterface;
 /**
  * @ORM\Entity(repositoryClass="App\Repository\MemberRepository")
  */
-class Member
+class Member implements UserInterface, \Serializable
 {
     /**
      * @ORM\Id()
@@ -41,7 +41,10 @@ class Member
     {
         return $this->pass;
     }
-
+    public function getPassword()
+    {
+        return $this->pass;
+    }
     public function setPass(string $pass): self
     {
         $this->pass = $pass;
@@ -102,5 +105,14 @@ class Member
             // see section on salt below
             // $this->salt
             ) = unserialize($serialized, ['allowed_classes' => false]);
+    }
+
+    public function getRoles()
+    {
+        return array('ROLE_USER');
+    }
+
+    public function eraseCredentials()
+    {
     }
 }
