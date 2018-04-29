@@ -17,22 +17,23 @@ class Payment
     private $id;
 
     /**
-     * @ORM\Column(type="string", length=50)
+     * @ORM\Column(type="string", length=100)
      */
     private $paymentType;
 
     /**
      * @ORM\Column(type="date")
      */
-    private $paymentDate;
+    private $date;
 
     /**
-     * @ORM\Column(type="string", length=50)
+     * @ORM\Column(type="string", length=100)
      */
-    private $paymentStatus;
+    private $status;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\ManyToOne(targetEntity="App\Entity\TicketOrder")
+     * @ORM\JoinColumn(nullable=false)
      */
     private $ticketOrder;
 
@@ -53,36 +54,36 @@ class Payment
         return $this;
     }
 
-    public function getPaymentDate(): ?\DateTimeInterface
+    public function getDate(): ?\DateTimeInterface
     {
-        return $this->paymentDate;
+        return $this->date;
     }
 
-    public function setPaymentDate(\DateTimeInterface $paymentDate): self
+    public function setDate(\DateTimeInterface $date): self
     {
-        $this->paymentDate = $paymentDate;
+        $this->date = $date;
 
         return $this;
     }
 
-    public function getPaymentStatus(): ?string
+    public function getStatus(): ?string
     {
-        return $this->paymentStatus;
+        return $this->status;
     }
 
-    public function setPaymentStatus(string $paymentStatus): self
+    public function setStatus(string $status): self
     {
-        $this->paymentStatus = $paymentStatus;
+        $this->status = $status;
 
         return $this;
     }
 
-    public function getTicketOrder(): ?int
+    public function getTicketOrder(): ?TicketOrder
     {
         return $this->ticketOrder;
     }
 
-    public function setTicketOrder(int $ticketOrder): self
+    public function setTicketOrder(?TicketOrder $ticketOrder): self
     {
         $this->ticketOrder = $ticketOrder;
 
