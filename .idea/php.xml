@@ -93,6 +93,8 @@
       <path value="$PROJECT_DIR$/html/vendor/psr/log" />
       <path value="$PROJECT_DIR$/html/vendor/doctrine/doctrine-migrations-bundle" />
       <path value="$PROJECT_DIR$/html/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/html/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/html/vendor/doctrine/doctrine-fixtures-bundle" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
