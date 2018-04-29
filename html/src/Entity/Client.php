@@ -2,6 +2,8 @@
 
 namespace App\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -17,38 +19,58 @@ class Client
     private $id;
 
     /**
-     * @ORM\Column(type="string", length=200)
+     * @ORM\OneToMany(targetEntity="App\Entity\Address", mappedBy="client", orphanRemoval=true)
      */
     private $address;
 
     /**
-     * @ORM\Column(type="string", length=100)
+     * @ORM\Column(type="string", length=150)
      */
     private $email;
 
     /**
-     * @ORM\Column(type="integer")
-     */
-    private $member;
-
-    /**
-     * @ORM\Column(type="integer")
+     * @ORM\OneToOne(targetEntity="App\Entity\Person", cascade={"persist", "remove"})
+     * @ORM\JoinColumn(nullable=false)
      */
     private $person;
+
+    public function __construct()
+    {
+        $this->address = new ArrayCollection();
+    }
 
     public function getId()
     {
         return $this->id;
     }
 
-    public function getAddress(): ?string
+    /**
+     * @return Collection|Address[]
+     */
+    public function getAddress(): Collection
     {
         return $this->address;
     }
 
-    public function setAddress(string $address): self
+    public function addAddress(Address $address): self
     {
-        $this->address = $address;
+        if (!$this->address->contains($address)) {
+            $this->address[] = $address;
+            $address->setClient($this);
+        }
+
+        return $this;
+    }
+
+    public function removeAddress(Address $address): self
+    {
+        if ($this->address->contains($address)) {
+            $this->address->removeElement($address);
+            // set the owning side to null (unless already changed)
+            if ($address->getClient() === $this) {
+                $address->setClient(null);
+            }
+        }
 
         return $this;
     }
@@ -65,24 +87,12 @@ class Client
         return $this;
     }
 
-    public function getMember(): ?int
-    {
-        return $this->member;
-    }
-
-    public function setMember(int $member): self
-    {
-        $this->member = $member;
-
-        return $this;
-    }
-
-    public function getPerson(): ?int
+    public function getPerson(): ?Person
     {
         return $this->person;
     }
 
-    public function setPerson(int $person): self
+    public function setPerson(Person $person): self
     {
         $this->person = $person;
 

@@ -46,6 +46,12 @@ class Address
      */
     private $postcode;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Client", inversedBy="address")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $client;
+
     public function getId()
     {
         return $this->id;
@@ -119,6 +125,18 @@ class Address
     public function setPostcode(string $postcode): self
     {
         $this->postcode = $postcode;
+
+        return $this;
+    }
+
+    public function getClient(): ?Client
+    {
+        return $this->client;
+    }
+
+    public function setClient(?Client $client): self
+    {
+        $this->client = $client;
 
         return $this;
     }
