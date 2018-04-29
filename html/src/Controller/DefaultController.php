@@ -18,4 +18,12 @@ class DefaultController extends Controller
     {
         return new Response('<html><body>Admin page!</body></html>');
     }
+
+    /**
+     * @Route("/profile")
+     */
+    public function profile()
+    {
+        return new Response('<html><body>User page!</body></html>');
+    }
 }
