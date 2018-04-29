@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33168c80-2fa7-45ed-ae5a-42d9fb3c9877" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/01_inserts.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,15 +28,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Basket.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Entity/Basket.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="102" column="7" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TicketPerson.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Entity/TicketPerson.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,14 +37,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Version20180429095108.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Version20180429095108.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Migrations/Version20180429095108.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="71" column="44" lean-forward="true" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+            <state relative-caret-position="238">
+              <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
               <folding>
                 <element signature="e#65#112#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01_inserts.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/01_inserts.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -115,6 +115,7 @@
         <option value="$PROJECT_DIR$/html/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/html/public/assets/css/styles.css" />
         <option value="$PROJECT_DIR$/html/src/Entity/ClosingDay.php" />
+        <option value="$PROJECT_DIR$/db/01_inserts.sql" />
       </list>
     </option>
   </component>
@@ -247,26 +248,6 @@
               <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -305,7 +286,7 @@
       <updated>1524913272465</updated>
       <workItem from="1524913273888" duration="3850000" />
       <workItem from="1524986543828" duration="1683000" />
-      <workItem from="1524988709096" duration="6619000" />
+      <workItem from="1524988709096" duration="6992000" />
     </task>
     <task id="LOCAL-00001" summary="ide settings">
       <created>1524913408437</created>
@@ -405,11 +386,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524994735795</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Operating migration">
+      <created>1524995556108</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1524995556108</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12152000" />
+    <option name="totallyTimeSpent" value="12525000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,8 +417,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35501355" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17866324" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35501355" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17866324" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31436315" />
@@ -465,7 +453,8 @@
     <MESSAGE value="Working on Basket entity relationships with TicketPerson and ScheduleDates" />
     <MESSAGE value="Done with TicketOrder" />
     <MESSAGE value="Done with payment entity allowing several payment instances for one order." />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with payment entity allowing several payment instances for one order." />
+    <MESSAGE value="Operating migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Operating migration" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/html/.env">
@@ -646,11 +635,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Migrations/Version20180429095108.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="71" column="44" lean-forward="true" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+        <state relative-caret-position="238">
+          <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
           <folding>
             <element signature="e#65#112#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/01_inserts.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
