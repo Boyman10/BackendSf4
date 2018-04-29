@@ -47,4 +47,19 @@ class RoleRepository extends ServiceEntityRepository
         ;
     }
     */
+    /**
+     * Getting the Role object from its id
+     * @param $value
+     * @return Role|null
+     * @throws \Doctrine\ORM\NonUniqueResultException
+     */
+    public function findOneById($value): ?Role
+    {
+        return $this->createQueryBuilder('r')
+            ->andWhere('r.id = :val')
+            ->setParameter('val', $value)
+            ->getQuery()
+            ->getOneOrNullResult()
+            ;
+    }
 }
