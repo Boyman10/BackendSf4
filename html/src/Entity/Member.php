@@ -42,7 +42,7 @@ class Member implements UserInterface, \Serializable
     private $role;
 
     /**
-     * @ORM\Column(type="string", length=255, unique=true)
+     * @ORM\Column(type="string", length=150, unique=true)
      * @Assert\NotBlank()
      * @Assert\Email()
      */

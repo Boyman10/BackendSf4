@@ -2,8 +2,8 @@
 
 namespace App\Controller;
 
-use App\Form\UserType;
-use App\Entity\User;
+use App\Entity\Member;
+use App\Form\RegisterForm;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
@@ -22,8 +22,8 @@ class RegistrationController extends Controller
     public function registerAction(Request $request, UserPasswordEncoderInterface $passwordEncoder)
     {
         // 1) build the form
-        $user = new User();
-        $form = $this->createForm(UserType::class, $user);
+        $user = new Member();
+        $form = $this->createForm(RegisterForm::class, $user);
 
         // 2) handle the submit (will only happen on POST)
         $form->handleRequest($request);
