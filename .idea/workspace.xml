@@ -16,36 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Member.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Entity/Member.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Repository/ClientRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-155" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Client.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Entity/Client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="799">
+              <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
               <folding>
                 <element signature="e#30#78#0#PHP" expanded="true" />
               </folding>
@@ -53,49 +28,76 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemberRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Repository/MemberRepository.php">
+      <file leaf-file-name="Basket.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Entity/Basket.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-36">
+            <state relative-caret-position="272">
+              <caret line="102" column="7" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicketPerson.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Entity/TicketPerson.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="734">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Version20180429095108.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/src/Migrations/Version20180429095108.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="71" column="44" lean-forward="true" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
               <folding>
-                <element signature="e#34#56#0#PHP" expanded="true" />
+                <element signature="e#65#112#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClosingDayRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Repository/ClosingDayRepository.php">
+      <file leaf-file-name="Payment.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Entity/Payment.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Address.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Entity/Address.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="-663" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduleDate.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Entity/ScheduleDate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicketOrder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Entity/TicketOrder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-561" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Entity/Person.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-408" />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ClosingDay.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Entity/ClosingDay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="85">
               <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Repository/PersonRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="easy_log_handler.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/config/packages/dev/easy_log_handler.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -222,9 +224,9 @@
       <path value="$PROJECT_DIR$/html/vendor/sensiolabs/security-checker" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="602" />
-    <option name="y" value="15" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="292" />
+    <option name="y" value="8" />
     <option name="width" value="1273" />
     <option name="height" value="842" />
   </component>
@@ -265,13 +267,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Migrations" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Repository" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -310,7 +305,7 @@
       <updated>1524913272465</updated>
       <workItem from="1524913273888" duration="3850000" />
       <workItem from="1524986543828" duration="1683000" />
-      <workItem from="1524988709096" duration="5420000" />
+      <workItem from="1524988709096" duration="6619000" />
     </task>
     <task id="LOCAL-00001" summary="ide settings">
       <created>1524913408437</created>
@@ -389,11 +384,32 @@
       <option name="project" value="LOCAL" />
       <updated>1524993832007</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Working on Basket entity relationships with TicketPerson and ScheduleDates">
+      <created>1524994376895</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1524994376895</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Done with TicketOrder">
+      <created>1524994543975</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1524994543975</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Done with payment entity allowing several payment instances for one order.">
+      <created>1524994735795</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1524994735795</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10953000" />
+    <option name="totallyTimeSpent" value="12152000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -405,7 +421,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="602" y="15" width="1273" height="842" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.348226" />
@@ -413,11 +429,11 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35511363" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22918384" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35501355" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17866324" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31436315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -446,7 +462,10 @@
     <MESSAGE value="Updating primary key of Person entity - adding member field which can be null." />
     <MESSAGE value="Updating Client entity with proper relations with Address and Person entities" />
     <MESSAGE value="Preparing new entity : SheduleDate to store the reserved dates for all clients." />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparing new entity : SheduleDate to store the reserved dates for all clients." />
+    <MESSAGE value="Working on Basket entity relationships with TicketPerson and ScheduleDates" />
+    <MESSAGE value="Done with TicketOrder" />
+    <MESSAGE value="Done with payment entity allowing several payment instances for one order." />
+    <option name="LAST_COMMIT_MESSAGE" value="Done with payment entity allowing several payment instances for one order." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/html/.env">
@@ -550,20 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Entity/Basket.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Entity/ClosingDay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Repository/PersonRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -583,12 +588,68 @@
         <state relative-caret-position="-155" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Entity/Basket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="102" column="7" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Entity/Payment.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Entity/Address.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Entity/TicketOrder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Entity/Person.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Entity/ClosingDay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Entity/Client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="799">
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
           <folding>
             <element signature="e#30#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Entity/ScheduleDate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Entity/TicketPerson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Migrations/Version20180429095108.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="71" column="44" lean-forward="true" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+          <folding>
+            <element signature="e#65#112#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
