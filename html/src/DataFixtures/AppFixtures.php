@@ -33,10 +33,16 @@ class AppFixtures extends Fixture
 
     public function load( ObjectManager $manager)
     {
+        // setting up new Role :
+        $role = new Role();
+        $role->setRoleName("administrator");
+        $manager->persist($role);
+
+
         // create 1 admin user
         $member = new Member();
         $member->setUsername("toto");
-        $member->setRole((new RoleRepository())->findOneById(1));
+        $member->setRole($role);
 
         // Password generation
         $password = $this->encoder->encodePassword($member, '1234');
