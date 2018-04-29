@@ -3,9 +3,14 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
+use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Security\Core\User\UserInterface;
+
 /**
  * @ORM\Entity(repositoryClass="App\Repository\MemberRepository")
+ * @UniqueEntity(fields="email", message="Email already taken")
+ * @UniqueEntity(fields="username", message="Username already taken")
  */
 class Member implements UserInterface, \Serializable
 {
@@ -17,12 +22,16 @@ class Member implements UserInterface, \Serializable
     private $id;
 
     /**
-     * @ORM\Column(name="pass",type="string", length=16)
+     * The below length depends on the "algorithm" you use for encoding
+     * the password, but this works well with bcrypt.
+     *
+     * @ORM\Column(type="string", length=64)
      */
     private $password;
 
     /**
      * @ORM\Column(type="string", length=50)
+     * @Assert\NotBlank()
      */
     private $username;
 
@@ -32,6 +41,19 @@ class Member implements UserInterface, \Serializable
      */
     private $role;
 
+    /**
+     * @ORM\Column(type="string", length=255, unique=true)
+     * @Assert\NotBlank()
+     * @Assert\Email()
+     */
+    private $email;
+
+    /**
+     * @Assert\NotBlank()
+     * @Assert\Length(max=4096)
+     */
+    private $plainPassword;
+
     public function getId()
     {
         return $this->id;
@@ -40,11 +62,11 @@ class Member implements UserInterface, \Serializable
 
     public function getPassword()
     {
-        return $this->pass;
+        return $this->password;
     }
     public function setPassword(string $pass): self
     {
-        $this->pass = $pass;
+        $this->password = $pass;
 
         return $this;
     }
@@ -111,5 +133,27 @@ class Member implements UserInterface, \Serializable
 
     public function eraseCredentials()
     {
+    }
+
+    // other properties and methods
+
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
+    public function setEmail($email)
+    {
+        $this->email = $email;
+    }
+
+    public function getPlainPassword()
+    {
+        return $this->plainPassword;
+    }
+
+    public function setPlainPassword($password)
+    {
+        $this->plainPassword = $password;
     }
 }
