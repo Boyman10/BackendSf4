@@ -17,9 +17,9 @@ class Member implements UserInterface, \Serializable
     private $id;
 
     /**
-     * @ORM\Column(type="string", length=16)
+     * @ORM\Column(name="pass",type="string", length=16)
      */
-    private $pass;
+    private $password;
 
     /**
      * @ORM\Column(type="string", length=50)
@@ -37,15 +37,12 @@ class Member implements UserInterface, \Serializable
         return $this->id;
     }
 
-    public function getPass(): ?string
-    {
-        return $this->pass;
-    }
+
     public function getPassword()
     {
         return $this->pass;
     }
-    public function setPass(string $pass): self
+    public function setPassword(string $pass): self
     {
         $this->pass = $pass;
 
@@ -89,7 +86,7 @@ class Member implements UserInterface, \Serializable
         return serialize(array(
             $this->id,
             $this->username,
-            $this->pass,
+            $this->password,
             // see section on salt below
             // $this->salt,
         ));
@@ -101,7 +98,7 @@ class Member implements UserInterface, \Serializable
         list (
             $this->id,
             $this->username,
-            $this->pass,
+            $this->password,
             // see section on salt below
             // $this->salt
             ) = unserialize($serialized, ['allowed_classes' => false]);
