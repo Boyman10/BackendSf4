@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33168c80-2fa7-45ed-ae5a-42d9fb3c9877" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/html/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/html/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Entity/Member.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Repository/MemberRepository.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +20,7 @@
       <file leaf-file-name=".env" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
+            <state relative-caret-position="408">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
@@ -176,10 +175,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="630" />
-    <option name="y" value="41" />
-    <option name="width" value="1174" />
-    <option name="height" value="764" />
+    <option name="x" value="467" />
+    <option name="width" value="1273" />
+    <option name="height" value="842" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -203,6 +201,27 @@
               <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,7 +261,7 @@
       <updated>1524913272465</updated>
       <workItem from="1524913273888" duration="3850000" />
       <workItem from="1524986543828" duration="1683000" />
-      <workItem from="1524988709096" duration="1943000" />
+      <workItem from="1524988709096" duration="2837000" />
     </task>
     <task id="LOCAL-00001" summary="ide settings">
       <created>1524913408437</created>
@@ -279,11 +298,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524927005764</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finish generating entities with Doctrine tool : php bin/console make:entity&#10;Now about to fix the entries and implement relationships.">
+      <created>1524990955194</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1524990955194</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7476000" />
+    <option name="totallyTimeSpent" value="8370000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -295,25 +321,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="630" y="41" width="1174" height="764" extended-state="0" />
+    <frame x="456" y="4" width="1273" height="842" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34470376" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.348226" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35511363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3165705" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.399361" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32956383" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -329,7 +355,8 @@
     <MESSAGE value="ide settings" />
     <MESSAGE value="Update project to handle Symfony and add assets folder within public&#10;- Successfully use asset package to load css through base layout." />
     <MESSAGE value="Preparing stylesheets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparing stylesheets" />
+    <MESSAGE value="Finish generating entities with Doctrine tool : php bin/console make:entity&#10;Now about to fix the entries and implement relationships." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish generating entities with Doctrine tool : php bin/console make:entity&#10;Now about to fix the entries and implement relationships." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/html/.env">
@@ -410,9 +437,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Entity/Member.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-954" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
+        <state relative-caret-position="408">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>

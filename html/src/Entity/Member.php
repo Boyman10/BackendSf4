@@ -22,12 +22,13 @@ class Member
     private $pass;
 
     /**
-     * @ORM\Column(type="string", length=100)
+     * @ORM\Column(type="string", length=50)
      */
     private $username;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\OneToOne(targetEntity="App\Entity\Role", cascade={"persist", "remove"})
+     * @ORM\JoinColumn(nullable=false)
      */
     private $role;
 
@@ -60,12 +61,12 @@ class Member
         return $this;
     }
 
-    public function getRole(): ?int
+    public function getRole(): ?Role
     {
         return $this->role;
     }
 
-    public function setRole(int $role): self
+    public function setRole(Role $role): self
     {
         $this->role = $role;
 
