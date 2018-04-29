@@ -10,7 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
 class ClosingDay
 {
     /**
-     * @Id
+     * @ORM\Id()
      * @ORM\Column(type="date")
      */
     private $closingDate;

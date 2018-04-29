@@ -17,12 +17,12 @@ class Person
     private $id;
 
     /**
-     * @ORM\Column(type="string", length=100)
+     * @ORM\Column(type="string", length=150)
      */
     private $firstname;
 
     /**
-     * @ORM\Column(type="string", length=100)
+     * @ORM\Column(type="string", length=150)
      */
     private $lastname;
 
@@ -30,6 +30,11 @@ class Person
      * @ORM\Column(type="date")
      */
     private $dateOfBirth;
+
+    /**
+     * @ORM\OneToOne(targetEntity="App\Entity\Member", cascade={"persist", "remove"})
+     */
+    private $member;
 
     public function getId()
     {
@@ -68,6 +73,18 @@ class Person
     public function setDateOfBirth(\DateTimeInterface $dateOfBirth): self
     {
         $this->dateOfBirth = $dateOfBirth;
+
+        return $this;
+    }
+
+    public function getMember(): ?Member
+    {
+        return $this->member;
+    }
+
+    public function setMember(?Member $member): self
+    {
+        $this->member = $member;
 
         return $this;
     }
