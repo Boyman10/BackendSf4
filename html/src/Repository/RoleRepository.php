@@ -36,17 +36,17 @@ class RoleRepository extends ServiceEntityRepository
     }
     */
 
-    /*
-    public function findOneBySomeField($value): ?Role
+
+    public function findOneByRoleName($value): ?Role
     {
         return $this->createQueryBuilder('r')
-            ->andWhere('r.exampleField = :val')
+            ->andWhere('r.role_name = :val')
             ->setParameter('val', $value)
             ->getQuery()
             ->getOneOrNullResult()
         ;
     }
-    */
+
     /**
      * Getting the Role object from its id
      * @param $value
@@ -55,6 +55,10 @@ class RoleRepository extends ServiceEntityRepository
      */
     public function findOneById($value): ?Role
     {
+        // set up default value to match normal user
+        if (null !== $value)
+            return $this->findOneByRoleName("user");
+
         return $this->createQueryBuilder('r')
             ->andWhere('r.id = :val')
             ->setParameter('val', $value)
@@ -62,4 +66,5 @@ class RoleRepository extends ServiceEntityRepository
             ->getOneOrNullResult()
             ;
     }
+
 }

@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Member;
 use App\Form\RegisterForm;
+use App\Repository\RoleRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
@@ -35,13 +36,20 @@ class RegistrationController extends Controller
 
             // 4) save the User!
             $entityManager = $this->getDoctrine()->getManager();
+
+            // careful with role is null :
+            if (null !== $user->getRole()) {
+                $role = $entityManager->getRepository(RoleRepository::class)->findOneById();
+                $user->setRole($role);
+            }
+
             $entityManager->persist($user);
             $entityManager->flush();
 
             // ... do any other work - like sending them an email, etc
             // maybe set a "flash" success message for the user
 
-            return $this->redirectToRoute('replace_with_some_route');
+            return $this->redirectToRoute('app_default_admin');
         }
 
         return $this->render(

@@ -3,14 +3,17 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Psr\Log\LoggerInterface;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Security\Core\User\UserInterface;
+use Doctrine\ORM\Event\LifecycleEventArgs;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\MemberRepository")
  * @UniqueEntity(fields="email", message="Email already taken")
  * @UniqueEntity(fields="username", message="Username already taken")
+ * //@ HasLifecycleCallbacks
  */
 class Member implements UserInterface, \Serializable
 {
@@ -54,6 +57,13 @@ class Member implements UserInterface, \Serializable
      */
     private $plainPassword;
 
+    private $logger;
+/*
+    public function __construct(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
+    }
+*/
     public function getId()
     {
         return $this->id;
@@ -155,5 +165,16 @@ class Member implements UserInterface, \Serializable
     public function setPlainPassword($password)
     {
         $this->plainPassword = $password;
+    }
+
+    /**
+     * @ PrePersist
+     */
+    public function doStuffOnPrePersist()
+    {
+      /*  // set up default role in case it s null
+        if (!isset($this->role))
+            $this->logger->debug("No role define for user being persisted!");
+*/
     }
 }
