@@ -17,17 +17,13 @@ class TicketOrder
     private $id;
 
     /**
-     * @ORM\Column(type="integer")
-     */
-    private $client;
-
-    /**
      * @ORM\Column(type="date")
      */
-    private $orderDate;
+    private $date;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\OneToOne(targetEntity="App\Entity\Basket", cascade={"persist", "remove"})
+     * @ORM\JoinColumn(nullable=false)
      */
     private $basket;
 
@@ -41,36 +37,24 @@ class TicketOrder
         return $this->id;
     }
 
-    public function getClient(): ?int
+    public function getDate(): ?\DateTimeInterface
     {
-        return $this->client;
+        return $this->date;
     }
 
-    public function setClient(int $client): self
+    public function setDate(\DateTimeInterface $date): self
     {
-        $this->client = $client;
+        $this->date = $date;
 
         return $this;
     }
 
-    public function getOrderDate(): ?\DateTimeInterface
-    {
-        return $this->orderDate;
-    }
-
-    public function setOrderDate(\DateTimeInterface $orderDate): self
-    {
-        $this->orderDate = $orderDate;
-
-        return $this;
-    }
-
-    public function getBasket(): ?int
+    public function getBasket(): ?Basket
     {
         return $this->basket;
     }
 
-    public function setBasket(int $basket): self
+    public function setBasket(Basket $basket): self
     {
         $this->basket = $basket;
 
