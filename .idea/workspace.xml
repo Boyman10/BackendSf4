@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33168c80-2fa7-45ed-ae5a-42d9fb3c9877" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/html/src/Controller/DefaultController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/html/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Entity/Member.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Entity/Member.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,20 +59,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="security.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="security.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/config/packages/security.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="136">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Member.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Member.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Entity/Member.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="100" column="23" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="23" />
+            <state relative-caret-position="136">
+              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding>
+                <element signature="e#30#62#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,8 +130,8 @@
         <option value="$PROJECT_DIR$/html/src/Entity/ClosingDay.php" />
         <option value="$PROJECT_DIR$/db/01_inserts.sql" />
         <option value="$PROJECT_DIR$/html/src/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/html/config/packages/security.yaml" />
         <option value="$PROJECT_DIR$/html/src/Entity/Member.php" />
+        <option value="$PROJECT_DIR$/html/config/packages/security.yaml" />
       </list>
     </option>
   </component>
@@ -334,7 +335,7 @@
       <updated>1524913272465</updated>
       <workItem from="1524913273888" duration="3850000" />
       <workItem from="1524986543828" duration="1683000" />
-      <workItem from="1524988709096" duration="8193000" />
+      <workItem from="1524988709096" duration="9215000" />
     </task>
     <task id="LOCAL-00001" summary="ide settings">
       <created>1524913408437</created>
@@ -455,11 +456,25 @@
       <option name="project" value="LOCAL" />
       <updated>1524996160172</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Preparing login management using security package and annotations for controller">
+      <created>1524997176442</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1524997176442</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fixing Member entity to implement USerInterface and Serialization">
+      <created>1524997403714</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1524997403714</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13726000" />
+    <option name="totallyTimeSpent" value="14748000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,7 +533,9 @@
     <MESSAGE value="Operating migration" />
     <MESSAGE value="Adding sql batch script and rest of entities" />
     <MESSAGE value="Adding new admin user - should be implementing password encryption asap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding new admin user - should be implementing password encryption asap" />
+    <MESSAGE value="Preparing login management using security package and annotations for controller" />
+    <MESSAGE value="Fixing Member entity to implement USerInterface and Serialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing Member entity to implement USerInterface and Serialization" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/html/.env">
@@ -720,17 +737,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/config/packages/security.yaml">
+    <entry file="file://$PROJECT_DIR$/html/src/Entity/Member.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="136">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#30#62#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Entity/Member.php">
+    <entry file="file://$PROJECT_DIR$/html/config/packages/security.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="100" column="23" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="23" />
+        <state relative-caret-position="136">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
