@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\Member;
 use App\Form\RegisterForm;
 use App\Repository\RoleRepository;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
@@ -19,6 +20,7 @@ class RegistrationController extends Controller
 {
     /**
      * @Route("/register", name="user_registration")
+     * @Method({"GET", "POST"})
      */
     public function registerAction(Request $request, UserPasswordEncoderInterface $passwordEncoder)
     {
@@ -54,6 +56,22 @@ class RegistrationController extends Controller
 
         return $this->render(
             'registration/register.html.twig',
+            array('form' => $form->createView())
+        );
+    }
+
+    /**
+     * New Route to let the user fill in details about a client
+     * @Route("/newclient", name="client_registration")
+     * @Method({"GET", "POST"})
+     */
+    public function registerClient(Request $request) {
+
+        // 1) build the form
+        $user = new Member();
+        $form = $this->createForm(NewClientForm::class, $user);
+        return $this->render(
+            'registration/newclient.html.twig',
             array('form' => $form->createView())
         );
     }

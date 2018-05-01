@@ -11,6 +11,13 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class DefaultController extends Controller
 {
+
+    public function __invoke() {
+
+        return new Response("Bill is not here");
+
+    }
+
     /**
      * @Route("/admin")
      */
