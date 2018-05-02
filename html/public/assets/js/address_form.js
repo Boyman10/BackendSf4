@@ -54,10 +54,10 @@ function addAddressForm($collectionHolder, $newLinkLi) {
     $newLinkLi.before($newFormLi);
 
     // add a delete link to the new form
-    addAddrerssFormDeleteLink($newFormLi);
+    addAddressFormDeleteLink($newFormLi);
 }
 
-function addAddrerssFormDeleteLink($tagFormLi) {
+function addAddressFormDeleteLink($tagFormLi) {
     var $removeFormA = $('<a href="#">delete this address</a>');
     $tagFormLi.append($removeFormA);
 
