@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33168c80-2fa7-45ed-ae5a-42d9fb3c9877" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/.env" beforeDir="false" afterPath="$PROJECT_DIR$/html/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Controller/RegistrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Form/RegisterForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Form/RegisterForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Migrations/Version20180429095108.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Migrations/Version20180429152254.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Migrations/Version20180429152521.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/html/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/templates/registration/newclient.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/html/templates/registration/newclient.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -104,8 +98,8 @@
       <file leaf-file-name="newclient.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/templates/registration/newclient.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+            <state relative-caret-position="489">
+              <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -113,8 +107,8 @@
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/templates/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="405">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -407,7 +401,7 @@
       <workItem from="1525091315184" duration="735000" />
       <workItem from="1525109331911" duration="65000" />
       <workItem from="1525182182200" duration="9555000" />
-      <workItem from="1525239163112" duration="1949000" />
+      <workItem from="1525239163112" duration="2126000" />
     </task>
     <task id="LOCAL-00001" summary="ide settings">
       <created>1524913408437</created>
@@ -574,7 +568,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41125000" />
+    <option name="totallyTimeSpent" value="41302000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -981,15 +975,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/templates/registration/newclient.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        <state relative-caret-position="489">
+          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
         </state>
       </provider>
     </entry>
