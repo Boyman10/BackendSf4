@@ -16,6 +16,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
  * Date: 01/05/18
  * Time: 17:11
  * @see https://symfony.com/doc/current/form/form_collections.html
+ * @see https://symfony.com/doc/current/reference/forms/types/collection.html#prototype
  * @see https://symfony.com/doc/current/form/embedded.html
  */
 class NewClientForm extends AbstractType
@@ -29,10 +30,15 @@ class NewClientForm extends AbstractType
             ->add('address', CollectionType::class, array(
                 // looks for choices from this entity
                 'entry_type' => AddressType::class,
-                'entry_options' => array('label' => false),
+                'entry_options' => array(
+                    'label' => false,
+                 //   'attr' => array('class' => 'address')
+                ),
+
                 'allow_add' => true,
                 'allow_delete' => true,
-                'by_reference' => false
+                'by_reference' => false,
+
 
                 // uses the User.username property as the visible option string
                 //'choice_label' => 'Address',
@@ -48,6 +54,7 @@ class NewClientForm extends AbstractType
     {
         $resolver->setDefaults(array(
             'data_class' => Client::class,
+
         ));
     }
 }
