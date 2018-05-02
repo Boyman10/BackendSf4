@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33168c80-2fa7-45ed-ae5a-42d9fb3c9877" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/html/src/Entity/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Entity/Client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Form/NewClientForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Form/NewClientForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/assets/js/address_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/public/assets/js/address_form.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewClientForm.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NewClientForm.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Form/NewClientForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+            <state relative-caret-position="459">
+              <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
               <folding>
                 <element signature="e#28#50#0#PHP" expanded="true" />
               </folding>
@@ -44,7 +43,7 @@
       <file leaf-file-name="Client.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Entity/Client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
+            <state relative-caret-position="105">
               <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
             </state>
           </provider>
@@ -85,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="address_form.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="address_form.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/public/assets/js/address_form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="684">
+              <caret line="60" column="57" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -145,10 +144,10 @@
         <option value="$PROJECT_DIR$/html/src/Form/RegisterForm.php" />
         <option value="$PROJECT_DIR$/html/src/Form/AddressType.php" />
         <option value="$PROJECT_DIR$/html/templates/base.html.twig" />
-        <option value="$PROJECT_DIR$/html/public/assets/js/address_form.js" />
         <option value="$PROJECT_DIR$/html/templates/registration/newclient.html.twig" />
         <option value="$PROJECT_DIR$/html/src/Entity/Client.php" />
         <option value="$PROJECT_DIR$/html/src/Form/NewClientForm.php" />
+        <option value="$PROJECT_DIR$/html/public/assets/js/address_form.js" />
       </list>
     </option>
   </component>
@@ -421,7 +420,7 @@
       <workItem from="1525091315184" duration="735000" />
       <workItem from="1525109331911" duration="65000" />
       <workItem from="1525182182200" duration="9555000" />
-      <workItem from="1525239163112" duration="4569000" />
+      <workItem from="1525239163112" duration="4732000" />
     </task>
     <task id="LOCAL-00001" summary="ide settings">
       <created>1524913408437</created>
@@ -588,7 +587,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43745000" />
+    <option name="totallyTimeSpent" value="43908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -966,13 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/public/assets/js/address_form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Entity/Address.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -982,18 +974,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Entity/Client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
+        <state relative-caret-position="105">
           <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Form/NewClientForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+        <state relative-caret-position="459">
+          <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
           <folding>
             <element signature="e#28#50#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/public/assets/js/address_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="60" column="57" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
         </state>
       </provider>
     </entry>
