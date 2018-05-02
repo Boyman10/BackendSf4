@@ -21,7 +21,7 @@ class Client
     /**
      * @ORM\OneToMany(targetEntity="App\Entity\Address", mappedBy="client", orphanRemoval=true)
      */
-    private $address;
+    private $addresses;
 
     /**
      * @ORM\Column(type="string", length=150)
@@ -53,15 +53,15 @@ class Client
     /**
      * @return Collection|Address[]
      */
-    public function getAddress(): Collection
+    public function getAddresses(): Collection
     {
-        return $this->address;
+        return $this->addresses;
     }
 
     public function addAddress(Address $address): self
     {
-        if (!$this->address->contains($address)) {
-            $this->address[] = $address;
+        if (!$this->addresses->contains($address)) {
+            $this->addresses[] = $address;
             $address->setClient($this);
         }
 
@@ -70,8 +70,8 @@ class Client
 
     public function removeAddress(Address $address): self
     {
-        if ($this->address->contains($address)) {
-            $this->address->removeElement($address);
+        if ($this->addresses->contains($address)) {
+            $this->addresses->removeElement($address);
             // set the owning side to null (unless already changed)
             if ($address->getClient() === $this) {
                 $address->setClient(null);
