@@ -60,19 +60,5 @@ class RegistrationController extends Controller
         );
     }
 
-    /**
-     * New Route to let the user fill in details about a client
-     * @Route("/newclient", name="client_registration")
-     * @Method({"GET", "POST"})
-     */
-    public function registerClient(Request $request) {
 
-        // 1) build the form
-        $user = new Member();
-        $form = $this->createForm(NewClientForm::class, $user);
-        return $this->render(
-            'registration/newclient.html.twig',
-            array('form' => $form->createView())
-        );
-    }
 }

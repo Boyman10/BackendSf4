@@ -1,0 +1,35 @@
+{# templates/security/login.html.twig #}
+{# ... you will probably extend your base template, like base.html.twig #}
+{% extends 'base.html.twig' %}
+{% block title %}My cool new client form{% endblock %}
+ {%  block stylesheets %}
+     {{ parent() }}
+ {% endblock %}
+{% block body %}
+
+    <div class="container">
+    {{ form_start(form) }}
+    {# render the task's only field: description #}
+    {{ form_row(form.email) }}
+    {{ form_row(form.person) }}
+
+    <h3>Addresses</h3>
+    <ul class="address" data-prototype="{{ form_widget(form.address.vars.prototype)|e('html_attr') }}">
+        {# iterate over each existing tag and render its only field: name #}
+        {% for item in form.address %}
+            <li>{{ form_row(item.addressName) }}</li>
+            <li>{{ form_row(item.addressType) }}</li>
+            <li>{{ form_row(item.address) }}</li>
+            <li>{{ form_row(item.country) }}</li>
+            <li>{{ form_row(item.city) }}</li>
+            <li>{{ form_row(item.postcode) }}</li>
+        {% endfor %}
+    </ul>
+    {{ form_end(form) }}
+
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+{{ parent() }}
+{% endblock %}
