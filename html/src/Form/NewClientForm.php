@@ -3,11 +3,10 @@
 namespace App\Form;
 
 use App\Entity\Client;
-use App\Entity\Person;
-use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\CollectionType;
 use Symfony\Component\Form\Extension\Core\Type\EmailType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
@@ -17,6 +16,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
  * Date: 01/05/18
  * Time: 17:11
  * @see https://symfony.com/doc/current/form/form_collections.html
+ * @see https://symfony.com/doc/current/form/embedded.html
  */
 class NewClientForm extends AbstractType
 {
@@ -40,7 +40,8 @@ class NewClientForm extends AbstractType
                 // used to render a select box, check boxes or radios
                 // 'multiple' => true,
                 // 'expanded' => true,
-            ));
+            ))
+            ->add('save', SubmitType::class, array('label' => 'Save me'));
     }
 
     public function configureOptions(OptionsResolver $resolver)
