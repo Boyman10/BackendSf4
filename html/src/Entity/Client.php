@@ -19,7 +19,7 @@ class Client
     private $id;
 
     /**
-     * @ORM\OneToMany(targetEntity="App\Entity\Address", mappedBy="client", orphanRemoval=true)
+     * @ORM\OneToMany(targetEntity="App\Entity\Address", mappedBy="client", orphanRemoval=true, cascade={"persist"})
      */
     private $addresses;
 
@@ -35,7 +35,7 @@ class Client
     private $person;
 
     /**
-     * @ORM\OneToMany(targetEntity="App\Entity\Basket", mappedBy="client", orphanRemoval=true)
+     * @ORM\OneToMany(targetEntity="App\Entity\Basket", mappedBy="client", orphanRemoval=true, cascade={"persist"})
      */
     private $baskets;
 

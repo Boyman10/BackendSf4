@@ -35,6 +35,8 @@ class NewClientForm extends AbstractType
                 'entry_type' => AddressType::class,
                 'entry_options' => array('label' => false),
                 'allow_add' => true,
+                'allow_delete' => true,
+                'by_reference' => false
 
                 // uses the User.username property as the visible option string
                 //'choice_label' => 'Address',
