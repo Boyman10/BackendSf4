@@ -2,13 +2,15 @@
 
 namespace App\Controller;
 
-/**
- * Created by Boy.
- */
+
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
+/**
+ * Created by Boy.
+ * @see http://symfony.com/doc/current/controller/service.html
+ */
 class DefaultController extends Controller
 {
 
