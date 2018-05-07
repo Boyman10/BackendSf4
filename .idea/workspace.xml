@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33168c80-2fa7-45ed-ae5a-42d9fb3c9877" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/html/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/.Backend.vpp.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/Backend.vpp" beforeDir="false" afterPath="$PROJECT_DIR$/uml/Backend.vpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -100,18 +95,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddressType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Form/AddressType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="32" selection-start-line="32" selection-end-line="34" selection-end-column="11" />
-              <folding>
-                <element signature="e#29#52#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="newclient.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/templates/registration/newclient.html.twig">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,11 +104,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01_inserts.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="01_inserts.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/01_inserts.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="68" lean-forward="true" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+              <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -179,6 +171,7 @@
         <option value="$PROJECT_DIR$/html/public/assets/js/address_form.js" />
         <option value="$PROJECT_DIR$/html/src/Controller/DefaultController.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/26ab897e-6866-4622-9f08-cd46f9056dc0/console.sql" />
+        <option value="$PROJECT_DIR$/html/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -187,6 +180,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/html/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -322,6 +318,12 @@
               <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -351,67 +353,6 @@
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="DataFixtures" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="registration" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="security" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
@@ -472,7 +413,7 @@
       <workItem from="1525109331911" duration="65000" />
       <workItem from="1525182182200" duration="9555000" />
       <workItem from="1525239163112" duration="21634000" />
-      <workItem from="1525694961542" duration="340000" />
+      <workItem from="1525694961542" duration="960000" />
     </task>
     <task id="LOCAL-00001" summary="ide settings">
       <created>1524913408437</created>
@@ -639,7 +580,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61150000" />
+    <option name="totallyTimeSpent" value="61770000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -708,13 +649,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Preparing Registration Form and defining new controller with new route" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/templates/registration/newclient.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/config/packages/dev/easy_log_handler.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1040,7 +974,14 @@
     <entry file="file://$PROJECT_DIR$/db/01_inserts.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="68" lean-forward="true" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
         </state>
       </provider>
     </entry>
