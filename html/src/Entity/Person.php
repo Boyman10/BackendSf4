@@ -36,6 +36,11 @@ class Person
      */
     private $member;
 
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true, name="profile_picture")
+     */
+    private $profilePicture;
+
     public function getId()
     {
         return $this->id;
@@ -85,6 +90,18 @@ class Person
     public function setMember(?Member $member): self
     {
         $this->member = $member;
+
+        return $this;
+    }
+
+    public function getProfilePicture(): ?string
+    {
+        return $this->profilePicture;
+    }
+
+    public function setProfilePicture(?string $profilePicture): self
+    {
+        $this->profilePicture = $profilePicture;
 
         return $this;
     }

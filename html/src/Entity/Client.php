@@ -32,7 +32,7 @@ class Client
     /**
      * @ORM\OneToOne(targetEntity="App\Entity\Person", cascade={"persist", "remove"})
      * @ORM\JoinColumn(nullable=false)
-     * @Assert|NotBlank()
+     * @Assert\NotBlank()
      */
     private $person;
 
