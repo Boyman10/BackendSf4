@@ -14,7 +14,7 @@ class DefaultController
     private $twig;
 
     /**
-     * @Route("/")
+     * @Route("/",name="welcome")
      * @param \Twig_Environment $twig
      * @return Response
      * @throws \Twig_Error_Loader
@@ -32,7 +32,7 @@ class DefaultController
     }
 
     /**
-     * @Route("/admin")
+     * @Route("/admin",name="admin")
      */
     public function admin()
     {
@@ -40,7 +40,7 @@ class DefaultController
     }
 
     /**
-     * @Route("/profile")
+     * @Route("/profile",name="profile")
      */
     public function profile()
     {
