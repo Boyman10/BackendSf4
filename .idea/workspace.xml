@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33168c80-2fa7-45ed-ae5a-42d9fb3c9877" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/assets/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/html/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/html/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,20 +51,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newclient.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/templates/registration/newclient.html.twig">
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/templates/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="435">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/templates/base.html.twig">
+      <file leaf-file-name="greet.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/assets/js/greet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="30">
+              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -97,9 +96,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/assets/js/app.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
@@ -172,6 +175,8 @@
         <option value="$PROJECT_DIR$/html/webpack.config.js" />
         <option value="$PROJECT_DIR$/html/public/assets/css/app.scss" />
         <option value="$PROJECT_DIR$/html/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/html/assets/js/greet.js" />
+        <option value="$PROJECT_DIR$/html/assets/js/app.js" />
       </list>
     </option>
   </component>
@@ -428,7 +433,7 @@
       <workItem from="1525182182200" duration="9555000" />
       <workItem from="1525239163112" duration="21634000" />
       <workItem from="1525694961542" duration="1751000" />
-      <workItem from="1525764250494" duration="3407000" />
+      <workItem from="1525764250494" duration="3718000" />
     </task>
     <task id="LOCAL-00001" summary="ide settings">
       <created>1524913408437</created>
@@ -595,7 +600,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65968000" />
+    <option name="totallyTimeSpent" value="66279000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -664,13 +669,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Preparing Registration Form and defining new controller with new route" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/src/Repository/ClosingDayRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Repository/PersonRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -985,13 +983,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/assets/js/greet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
