@@ -13,7 +13,7 @@ use Doctrine\ORM\Event\LifecycleEventArgs;
  * @ORM\Entity(repositoryClass="App\Repository\MemberRepository")
  * @UniqueEntity(fields="email", message="Email already taken")
  * @UniqueEntity(fields="username", message="Username already taken")
- * //@ HasLifecycleCallbacks
+ * @ORM\HasLifecycleCallbacks
  */
 class Member implements UserInterface, \Serializable
 {
