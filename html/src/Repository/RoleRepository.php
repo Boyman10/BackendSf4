@@ -40,7 +40,7 @@ class RoleRepository extends ServiceEntityRepository
     public function findOneByRoleName($value): ?Role
     {
         return $this->createQueryBuilder('r')
-            ->andWhere('r.role_name = :val')
+            ->andWhere('r.roleName = :val')
             ->setParameter('val', $value)
             ->getQuery()
             ->getOneOrNullResult()
