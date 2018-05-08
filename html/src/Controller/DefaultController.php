@@ -2,8 +2,6 @@
 
 namespace App\Controller;
 
-
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -11,12 +9,25 @@ use Symfony\Component\Routing\Annotation\Route;
  * Created by Boy.
  * @see http://symfony.com/doc/current/controller/service.html
  */
-class DefaultController extends Controller
+class DefaultController
 {
+    private $twig;
 
-    public function __invoke() {
+    /**
+     * @Route("/")
+     * @param \Twig_Environment $twig
+     * @return Response
+     * @throws \Twig_Error_Loader
+     * @throws \Twig_Error_Runtime
+     * @throws \Twig_Error_Syntax
+     */
+    public function __invoke(\Twig_Environment $twig) {
 
-        return new Response("Bill is not here");
+        $this->twig = $twig;
+
+        $content = $this->twig->render("index.html.twig");
+
+        return new Response($content);
 
     }
 
