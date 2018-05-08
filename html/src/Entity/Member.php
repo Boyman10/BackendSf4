@@ -57,13 +57,7 @@ class Member implements UserInterface, \Serializable
      */
     private $plainPassword;
 
-    private $logger;
-/*
-    public function __construct(LoggerInterface $logger)
-    {
-        $this->logger = $logger;
-    }
-*/
+
     public function getId()
     {
         return $this->id;
@@ -168,13 +162,15 @@ class Member implements UserInterface, \Serializable
     }
 
     /**
-     * @ PrePersist
+     * Set up default role for new member
+     * @ORM\PrePersist
+     * @param $logger
      */
-    public function doStuffOnPrePersist()
+    public function doStuffOnPrePersist(LoggerInterface $logger)
     {
-      /*  // set up default role in case it s null
+        // set up default role in case it s null
         if (!isset($this->role))
-            $this->logger->debug("No role define for user being persisted!");
-*/
+            $logger->debug("No role define for user being persisted!");
+        }
     }
 }
