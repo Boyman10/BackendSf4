@@ -41,9 +41,18 @@ class DefaultController
 
     /**
      * @Route("/profile",name="profile")
+     * @param \Twig_Environment $twig
+     * @return Response
+     * @throws \Twig_Error_Loader
+     * @throws \Twig_Error_Runtime
+     * @throws \Twig_Error_Syntax
      */
-    public function profile()
+    public function profile(\Twig_Environment $twig)
     {
-        return new Response('<html><body>User page!</body></html>');
-    }
+
+        $this->twig = $twig;
+
+        $content = $this->twig->render("admin/profile.html.twig");
+
+        return new Response($content);    }
 }

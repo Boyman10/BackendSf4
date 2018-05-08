@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -16,6 +17,10 @@ class SecurityController extends Controller
 {
     /**
      * @Route("/login", name="login")
+     * @param Request $request
+     * @param AuthenticationUtils $authenticationUtils
+     * @return
+     * @Method({"GET", "POST"})
      */
     public function login(Request $request, AuthenticationUtils $authenticationUtils)
     {
