@@ -2,6 +2,7 @@
 
 namespace App\Entity;
 
+use App\Repository\RoleRepository;
 use Doctrine\ORM\Mapping as ORM;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -165,12 +166,15 @@ class Member implements UserInterface, \Serializable
      * Set up default role for new member
      * @ORM\PrePersist
      * @param $logger
+     * @param $roleRep
      */
-    public function doStuffOnPrePersist(LoggerInterface $logger)
+    public function doStuffOnPrePersist(LoggerInterface $logger, RoleRepository $roleRep)
     {
         // set up default role in case it s null
         if (!isset($this->role))
             $logger->debug("No role define for user being persisted!");
+
+            $this->role = $roleRep->findOneByRoleName("visitor");
         }
     }
 }
