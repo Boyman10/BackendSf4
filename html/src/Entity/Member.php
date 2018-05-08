@@ -58,6 +58,21 @@ class Member implements UserInterface, \Serializable
      */
     private $plainPassword;
 
+    private $logger;
+    private $roleRep;
+
+    /**
+     * Member constructor.
+     * @param LoggerInterface $logger
+     * @param RoleRepository $roleRep
+     */
+    public function __construct(LoggerInterface $logger, RoleRepository $roleRep) {
+
+        $this->roleRep = $roleRep;
+        $this->logger = $logger;
+
+    }
+
 
     public function getId()
     {
@@ -165,16 +180,14 @@ class Member implements UserInterface, \Serializable
     /**
      * Set up default role for new member
      * @ORM\PrePersist
-     * @param $logger
-     * @param $roleRep
      */
-    public function doStuffOnPrePersist(LoggerInterface $logger, RoleRepository $roleRep)
+    public function doStuffOnPrePersist()
     {
         // set up default role in case it s null
-        if (!isset($this->role))
-            $logger->debug("No role define for user being persisted!");
+        if (!isset($this->role)) {
+            $this->logger->debug("No role define for user being persisted!");
 
-            $this->role = $roleRep->findOneByRoleName("visitor");
+            $this->role = $this->roleRep->findOneByRoleName("visitor");
         }
     }
 }
