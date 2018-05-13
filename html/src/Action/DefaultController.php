@@ -21,7 +21,8 @@ class DefaultController
      * @throws \Twig_Error_Runtime
      * @throws \Twig_Error_Syntax
      */
-    public function __invoke(\Twig_Environment $twig) {
+    public function __invoke(\Twig_Environment $twig) : Response
+    {
 
         $this->twig = $twig;
 
