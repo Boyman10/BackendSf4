@@ -1,6 +1,6 @@
 <?php
 
-namespace App\DataFixtures;
+namespace App\Domain\DataFixtures;
 
 use App\Entity\Member;
 use App\Entity\Role;

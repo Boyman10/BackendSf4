@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Form;
+namespace App\Domain\Form;
 
-use App\Entity\Client;
+use App\Domain\Entity\Client;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\CollectionType;
 use Symfony\Component\Form\Extension\Core\Type\EmailType;
