@@ -21,7 +21,10 @@ final class DefaultResponder implements DefaultResponderInterface
 
     public function __invoke($data) : Response
     {
-        $content = $this->twig->render("index.html.twig");
+        $message = Array();
+        $message['flash_message'] = $data;
+
+        $content = $this->twig->render("index.html.twig", $message);
 
         return new Response($content);
     }

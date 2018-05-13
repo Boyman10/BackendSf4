@@ -2,7 +2,6 @@
 
 namespace App\Action;
 
-use App\Responder\DefaultResponder;
 use App\Responder\DefaultResponderInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -12,9 +11,8 @@ use Symfony\Component\Routing\Annotation\Route;
  * Created by Boy.
  * @see http://symfony.com/doc/current/controller/service.html
  */
-class DefaultController
+final class Home
 {
-    private $twig;
 
     /**
      * @Route("/",name="welcome")
@@ -25,14 +23,6 @@ class DefaultController
     public function __invoke(Request $request, DefaultResponderInterface $responder) : Response
     {
         return $responder(null);
-    }
-
-    /**
-     * @Route("/admin",name="admin")
-     */
-    public function admin()
-    {
-        return new Response('<html><body>Admin page!</body></html>');
     }
 
     /**
