@@ -2,41 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33168c80-2fa7-45ed-ae5a-42d9fb3c9877" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/html/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/html/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/config/packages/doctrine_migrations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/html/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/html/config/packages/security.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/html/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Action/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Action/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Action/RegisterClientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Action/RegisterClientController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Action/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Action/RegistrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Action/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Action/SecurityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Address.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Address.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Basket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/ClosingDay.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/ClosingDay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Member.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Member.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Payment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Person.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Role.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/ScheduleDate.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/ScheduleDate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/TicketOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/TicketOrder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/TicketPerson.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/TicketPerson.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/TicketType.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/TicketType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Form/AddressType.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Form/AddressType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Form/NewClientForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Form/NewClientForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Form/PersonType.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Form/PersonType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Form/RegisterForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Form/RegisterForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/src/Domain/Migrations/Version20180513084842.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Migrations/Version20180513084842.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Repository/AddressRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Repository/AddressRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Repository/BasketRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Repository/BasketRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Repository/ClientRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Repository/ClientRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Repository/ClosingDayRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Repository/ClosingDayRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Repository/MemberRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Repository/MemberRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Repository/PaymentRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Repository/PaymentRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Repository/PersonRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Repository/PersonRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Repository/RoleRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Repository/RoleRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Repository/ScheduleDateRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Repository/ScheduleDateRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Repository/TicketOrderRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Repository/TicketOrderRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Repository/TicketPersonRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Repository/TicketPersonRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Repository/TicketTypeRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Repository/TicketTypeRepository.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,69 +39,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MemberRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Domain/Repository/MemberRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PaymentRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Domain/Repository/PaymentRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Domain/Repository/PersonRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Domain/Repository/ClientRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Domain/Repository/RoleRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScheduleDateRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Domain/Repository/ScheduleDateRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TicketOrderRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Domain/Repository/TicketOrderRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TicketPersonRepository.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Domain/Repository/TicketPersonRepository.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -141,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicketTypeRepository.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TicketTypeRepository.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Domain/Repository/TicketTypeRepository.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -150,11 +57,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClosingDayRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Domain/Repository/ClosingDayRepository.php">
+      <file leaf-file-name="services.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/config/services.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="306">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doctrine_migrations.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/config/packages/doctrine_migrations.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doctrine.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/config/packages/doctrine.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="framework.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/config/packages/framework.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-153" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/config/packages/routing.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="security.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/config/packages/security.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Version20180513084842.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Domain/Migrations/Version20180513084842.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              <folding>
+                <element signature="e#72#119#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddressRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Domain/Repository/AddressRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -174,15 +141,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/src/Controller/RegistrationController.php" />
-        <option value="$PROJECT_DIR$/html/src/Entity/Role.php" />
         <option value="$PROJECT_DIR$/html/src/Repository/RoleRepository.php" />
         <option value="$PROJECT_DIR$/html/src/Controller/SecurityController.php" />
         <option value="$PROJECT_DIR$/html/templates/admin/profile.html.twig" />
         <option value="$PROJECT_DIR$/html/config/routes.yaml" />
         <option value="$PROJECT_DIR$/html/templates/partials/menu.html.twig" />
         <option value="$PROJECT_DIR$/html/config/packages/framework.yaml" />
-        <option value="$PROJECT_DIR$/html/config/packages/security.yaml" />
         <option value="$PROJECT_DIR$/html/templates/security/login.html.twig" />
         <option value="$PROJECT_DIR$/html/src/Entity/Person.php" />
         <option value="$PROJECT_DIR$/html/src/Entity/Client.php" />
@@ -190,7 +154,6 @@
         <option value="$PROJECT_DIR$/html/templates/index.html.twig" />
         <option value="$PROJECT_DIR$/html/src/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/html/config/routes/annotations.yaml" />
-        <option value="$PROJECT_DIR$/html/config/services.yaml" />
         <option value="$PROJECT_DIR$/html/src/Action/DefaultController.php" />
         <option value="$PROJECT_DIR$/html/src/Action/RegisterClientController.php" />
         <option value="$PROJECT_DIR$/html/src/Action/RegistrationController.php" />
@@ -212,7 +175,6 @@
         <option value="$PROJECT_DIR$/html/src/Domain/Form/NewClientForm.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Form/PersonType.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Form/RegisterForm.php" />
-        <option value="$PROJECT_DIR$/html/src/Domain/Migrations/Version20180513084842.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Repository/AddressRepository.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Repository/BasketRepository.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Repository/ClientRepository.php" />
@@ -225,6 +187,11 @@
         <option value="$PROJECT_DIR$/html/src/Domain/Repository/TicketOrderRepository.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Repository/TicketPersonRepository.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Repository/TicketTypeRepository.php" />
+        <option value="$PROJECT_DIR$/html/src/Domain/Migrations/Version20180513084842.php" />
+        <option value="$PROJECT_DIR$/html/config/services.yaml" />
+        <option value="$PROJECT_DIR$/html/config/packages/doctrine_migrations.yaml" />
+        <option value="$PROJECT_DIR$/html/config/packages/doctrine.yaml" />
+        <option value="$PROJECT_DIR$/html/config/packages/security.yaml" />
       </list>
     </option>
   </component>
@@ -394,6 +361,20 @@
               <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
               <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -422,38 +403,7 @@
               <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="DataFixtures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Form" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
@@ -728,7 +678,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85136000" />
+    <option name="totallyTimeSpent" value="86384000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -812,11 +762,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/html/src/Domain/Migrations/Version20180513084842.php</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/html/src/Domain/Repository/BasketRepository.php</url>
           <line>4</line>
           <option name="timeStamp" value="2" />
@@ -826,32 +771,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/config/packages/swiftmailer.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/config/packages/dev/swiftmailer.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Migrations/Version20180508130339.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#63#110#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/01_inserts.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -912,9 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/config/packages/routing.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/config/packages/dev/routing.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -929,13 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/config/services.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1106,20 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Domain/Migrations/Version20180513084842.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Domain/Repository/AddressRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Domain/Repository/BasketRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1194,6 +1089,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Domain/Repository/AddressRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Domain/Migrations/Version20180513084842.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding>
+            <element signature="e#72#119#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/config/packages/doctrine_migrations.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/config/packages/doctrine.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/config/packages/framework.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/config/packages/routing.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/config/packages/security.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>

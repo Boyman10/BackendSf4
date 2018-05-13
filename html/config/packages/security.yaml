@@ -6,7 +6,7 @@ security:
     providers:
         our_db_provider:
             entity:
-                class: App\Entity\Member
+                class: App\Domain\Entity\Member
                 property: username
     firewalls:
         dev:
