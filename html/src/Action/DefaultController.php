@@ -2,6 +2,9 @@
 
 namespace App\Action;
 
+use App\Responder\DefaultResponder;
+use App\Responder\DefaultResponderInterface;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -15,21 +18,13 @@ class DefaultController
 
     /**
      * @Route("/",name="welcome")
-     * @param \Twig_Environment $twig
+     * @param DefaultResponderInterface $responder
+     * @param Request $request
      * @return Response
-     * @throws \Twig_Error_Loader
-     * @throws \Twig_Error_Runtime
-     * @throws \Twig_Error_Syntax
      */
-    public function __invoke(\Twig_Environment $twig) : Response
+    public function __invoke(Request $request, DefaultResponderInterface $responder) : Response
     {
-
-        $this->twig = $twig;
-
-        $content = $this->twig->render("index.html.twig");
-
-        return new Response($content);
-
+        return $responder(null);
     }
 
     /**
