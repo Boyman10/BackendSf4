@@ -19,6 +19,14 @@ final class DefaultResponder implements DefaultResponderInterface
         $this->twig = $twig;
     }
 
+    /**
+     * Here we actually render the page using Twig Templating
+     * @param $data
+     * @return Response
+     * @throws \Twig_Error_Loader
+     * @throws \Twig_Error_Runtime
+     * @throws \Twig_Error_Syntax
+     */
     public function __invoke($data) : Response
     {
         $message = Array();
