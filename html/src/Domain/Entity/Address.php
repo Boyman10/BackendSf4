@@ -5,7 +5,7 @@ namespace App\Domain\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\AddressRepository")
+ * @ORM\Entity(repositoryClass="App\Domain\Repository\AddressRepository")
  */
 class Address
 {
@@ -47,7 +47,7 @@ class Address
     private $postcode;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Client", inversedBy="address")
+     * @ORM\ManyToOne(targetEntity="App\Domain\Entity\Client", inversedBy="address")
      * @ORM\JoinColumn(nullable=false)
      */
     private $client;

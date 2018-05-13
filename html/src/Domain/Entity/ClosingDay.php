@@ -5,7 +5,7 @@ namespace App\Domain\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\ClosingDayRepository")
+ * @ORM\Entity(repositoryClass="App\Domain\Repository\ClosingDayRepository")
  */
 class ClosingDay
 {

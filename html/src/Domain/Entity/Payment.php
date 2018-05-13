@@ -5,7 +5,7 @@ namespace App\Domain\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\PaymentRepository")
+ * @ORM\Entity(repositoryClass="App\Domain\Repository\PaymentRepository")
  */
 class Payment
 {
@@ -32,7 +32,7 @@ class Payment
     private $status;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\TicketOrder")
+     * @ORM\ManyToOne(targetEntity="App\Domain\Entity\TicketOrder")
      * @ORM\JoinColumn(nullable=false)
      */
     private $ticketOrder;

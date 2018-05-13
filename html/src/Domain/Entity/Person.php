@@ -5,7 +5,7 @@ namespace App\Domain\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\PersonRepository")
+ * @ORM\Entity(repositoryClass="App\Domain\Repository\PersonRepository")
  */
 class Person
 {
@@ -32,7 +32,7 @@ class Person
     private $dateOfBirth;
 
     /**
-     * @ORM\OneToOne(targetEntity="App\Entity\Member", cascade={"persist", "remove"})
+     * @ORM\OneToOne(targetEntity="App\Domain\Entity\Member", cascade={"persist", "remove"})
      */
     private $member;
 

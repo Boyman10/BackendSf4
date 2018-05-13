@@ -2,7 +2,7 @@
 
 namespace App\Domain\Entity;
 
-use App\Repository\RoleRepository;
+use App\Domain\Repository\RoleRepository;
 use Doctrine\ORM\Mapping as ORM;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -11,7 +11,7 @@ use Symfony\Component\Security\Core\User\UserInterface;
 use Doctrine\ORM\Event\LifecycleEventArgs;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\MemberRepository")
+ * @ORM\Entity(repositoryClass="App\Domain\Repository\MemberRepository")
  * @UniqueEntity(fields="email", message="Email already taken")
  * @UniqueEntity(fields="username", message="Username already taken")
  * @ORM\HasLifecycleCallbacks
@@ -40,7 +40,7 @@ class Member implements UserInterface, \Serializable
     private $username;
 
     /**
-     * @ORM\OneToOne(targetEntity="App\Entity\Role", cascade={"persist", "remove"})
+     * @ORM\OneToOne(targetEntity="App\Domain\Entity\Role", cascade={"persist", "remove"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $role;

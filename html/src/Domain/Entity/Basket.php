@@ -7,7 +7,7 @@ use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\BasketRepository")
+ * @ORM\Entity(repositoryClass="App\Domain\Repository\BasketRepository")
  */
 class Basket
 {
@@ -24,18 +24,18 @@ class Basket
     private $date;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Client", inversedBy="baskets")
+     * @ORM\ManyToOne(targetEntity="App\Domain\Entity\Client", inversedBy="baskets")
      * @ORM\JoinColumn(nullable=false)
      */
     private $client;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\ScheduleDate")
+     * @ORM\ManyToMany(targetEntity="App\Domain\Entity\ScheduleDate")
      */
     private $scheduleDates;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\TicketPerson")
+     * @ORM\ManyToMany(targetEntity="App\Domain\Entity\TicketPerson")
      */
     private $ticketsPerson;
 

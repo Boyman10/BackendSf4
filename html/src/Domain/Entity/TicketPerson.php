@@ -5,7 +5,7 @@ namespace App\Domain\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\TicketPersonRepository")
+ * @ORM\Entity(repositoryClass="App\Domain\Repository\TicketPersonRepository")
  */
 class TicketPerson
 {
@@ -17,7 +17,7 @@ class TicketPerson
     private $id;
 
     /**
-     * @ORM\OneToOne(targetEntity="App\Entity\Person", cascade={"persist", "remove"})
+     * @ORM\OneToOne(targetEntity="App\Domain\Entity\Person", cascade={"persist", "remove"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $person;

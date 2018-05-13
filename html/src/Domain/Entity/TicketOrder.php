@@ -5,7 +5,7 @@ namespace App\Domain\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\TicketOrderRepository")
+ * @ORM\Entity(repositoryClass="App\Domain\Repository\TicketOrderRepository")
  */
 class TicketOrder
 {
@@ -22,7 +22,7 @@ class TicketOrder
     private $date;
 
     /**
-     * @ORM\OneToOne(targetEntity="App\Entity\Basket", cascade={"persist", "remove"})
+     * @ORM\OneToOne(targetEntity="App\Domain\Entity\Basket", cascade={"persist", "remove"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $basket;

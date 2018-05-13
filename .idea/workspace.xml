@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33168c80-2fa7-45ed-ae5a-42d9fb3c9877" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/html/src/Action/RegisterClientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Action/RegisterClientController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Action/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Action/RegistrationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Address.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Address.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Basket.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/ClosingDay.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/ClosingDay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Member.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Member.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Person.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/ScheduleDate.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/ScheduleDate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/TicketOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/TicketOrder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/TicketPerson.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/TicketPerson.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/TicketType.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/TicketType.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,72 +46,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="framework.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/config/packages/framework.yaml">
+      <file leaf-file-name="Member.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Member.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/config/packages/routing.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="security.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/config/packages/security.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="714">
+              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+              <folding>
+                <element signature="e#37#71#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="security_checker.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/config/packages/security_checker.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="swiftmailer.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/config/packages/swiftmailer.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Action/RegistrationController.php">
+      <file leaf-file-name="Payment.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Payment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="272">
+              <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Action/SecurityController.php">
+      <file leaf-file-name="Person.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Person.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="374">
+              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterClientController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/src/Action/RegisterClientController.php">
+      <file leaf-file-name="Address.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Address.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="833">
+              <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="translation.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/config/packages/translation.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="ClosingDay.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/ClosingDay.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-136">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="twig.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/config/packages/twig.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="Role.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Role.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-187">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduleDate.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/ScheduleDate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-187">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicketOrder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/TicketOrder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicketPerson.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/TicketPerson.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicketType.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/TicketType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-340">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -135,18 +170,6 @@
         <option value="$PROJECT_DIR$/html/src/Action/DefaultController.php" />
         <option value="$PROJECT_DIR$/html/src/Action/SecurityController.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/DataFixtures/AppFixtures.php" />
-        <option value="$PROJECT_DIR$/html/src/Domain/Entity/Address.php" />
-        <option value="$PROJECT_DIR$/html/src/Domain/Entity/Basket.php" />
-        <option value="$PROJECT_DIR$/html/src/Domain/Entity/Client.php" />
-        <option value="$PROJECT_DIR$/html/src/Domain/Entity/ClosingDay.php" />
-        <option value="$PROJECT_DIR$/html/src/Domain/Entity/Member.php" />
-        <option value="$PROJECT_DIR$/html/src/Domain/Entity/Payment.php" />
-        <option value="$PROJECT_DIR$/html/src/Domain/Entity/Person.php" />
-        <option value="$PROJECT_DIR$/html/src/Domain/Entity/Role.php" />
-        <option value="$PROJECT_DIR$/html/src/Domain/Entity/ScheduleDate.php" />
-        <option value="$PROJECT_DIR$/html/src/Domain/Entity/TicketOrder.php" />
-        <option value="$PROJECT_DIR$/html/src/Domain/Entity/TicketPerson.php" />
-        <option value="$PROJECT_DIR$/html/src/Domain/Entity/TicketType.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Form/AddressType.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Form/NewClientForm.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Form/PersonType.php" />
@@ -170,6 +193,18 @@
         <option value="$PROJECT_DIR$/html/config/packages/security.yaml" />
         <option value="$PROJECT_DIR$/html/src/Action/RegistrationController.php" />
         <option value="$PROJECT_DIR$/html/src/Action/RegisterClientController.php" />
+        <option value="$PROJECT_DIR$/html/src/Domain/Entity/Client.php" />
+        <option value="$PROJECT_DIR$/html/src/Domain/Entity/Address.php" />
+        <option value="$PROJECT_DIR$/html/src/Domain/Entity/Basket.php" />
+        <option value="$PROJECT_DIR$/html/src/Domain/Entity/ClosingDay.php" />
+        <option value="$PROJECT_DIR$/html/src/Domain/Entity/Member.php" />
+        <option value="$PROJECT_DIR$/html/src/Domain/Entity/Payment.php" />
+        <option value="$PROJECT_DIR$/html/src/Domain/Entity/Person.php" />
+        <option value="$PROJECT_DIR$/html/src/Domain/Entity/Role.php" />
+        <option value="$PROJECT_DIR$/html/src/Domain/Entity/ScheduleDate.php" />
+        <option value="$PROJECT_DIR$/html/src/Domain/Entity/TicketOrder.php" />
+        <option value="$PROJECT_DIR$/html/src/Domain/Entity/TicketPerson.php" />
+        <option value="$PROJECT_DIR$/html/src/Domain/Entity/TicketType.php" />
       </list>
     </option>
   </component>
@@ -382,6 +417,14 @@
               <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
@@ -656,7 +699,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86514000" />
+    <option name="totallyTimeSpent" value="86866000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -814,93 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Address.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Basket.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#30#78#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/ClosingDay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Member.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Payment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Person.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Role.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/ScheduleDate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/TicketOrder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/TicketPerson.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/TicketType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -1080,24 +1036,114 @@
     <entry file="file://$PROJECT_DIR$/html/config/packages/twig.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Action/RegistrationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Action/SecurityController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Action/RegisterClientController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="-170">
           <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Action/RegistrationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1986">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#37#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Basket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Address.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/ClosingDay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Member.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+          <folding>
+            <element signature="e#37#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Person.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Role.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/ScheduleDate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/TicketOrder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/TicketPerson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/TicketType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
         </state>
       </provider>
     </entry>
