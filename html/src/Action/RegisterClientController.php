@@ -2,8 +2,8 @@
 
 namespace App\Action;
 
-use App\Entity\Client;
-use App\Form\NewClientForm;
+use App\Domain\Entity\Client;
+use App\Domain\Form\NewClientForm;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;

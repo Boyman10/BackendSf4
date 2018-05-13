@@ -2,9 +2,9 @@
 
 namespace App\Action;
 
-use App\Entity\Member;
-use App\Form\RegisterForm;
-use App\Repository\RoleRepository;
+use App\Domain\Entity\Member;
+use App\Domain\Form\RegisterForm;
+use App\Domain\Repository\RoleRepository;
 use Psr\Log\LoggerInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
