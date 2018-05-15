@@ -2,11 +2,11 @@
 
 namespace App\Domain\DataFixtures;
 
-use App\Entity\Member;
-use App\Entity\Role;
-use App\Repository\RoleRepository;
+use App\Domain\Entity\Member;
+use App\Domain\Entity\Role;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\Persistence\ObjectManager;
+use Psr\Log\LoggerInterface;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 
 /**
@@ -20,33 +20,42 @@ class AppFixtures extends Fixture
 {
 
     private $encoder;
+    private $logger;
 
     /**
      * Enabling Constructor  to load additional service for password encryption
      * AppFixtures constructor.
      * @param UserPasswordEncoderInterface $encoder
+     * @param LoggerInterface $logger
      */
-    public function __construct(UserPasswordEncoderInterface $encoder)
+    public function __construct(UserPasswordEncoderInterface $encoder, LoggerInterface $logger)
     {
         $this->encoder = $encoder;
+        $this->logger;
     }
 
     public function load( ObjectManager $manager)
     {
-        // setting up new Role :
+        // setting up new Roles :
+
+        $role = new Role();
+        $role->setRoleName("visitor");
+        $manager->persist($role);
+
+
         $role = new Role();
         $role->setRoleName("administrator");
         $manager->persist($role);
 
 
         // create 1 admin user
-        $member = new Member();
+        $member = new Member($this->logger, null);
         $member->setUsername("toto");
         $member->setRole($role);
 
         // Password generation
         $password = $this->encoder->encodePassword($member, '1234');
-        $member->setPass($password);
+        $member->setPassword($password);
 
         $manager->persist($member);
 

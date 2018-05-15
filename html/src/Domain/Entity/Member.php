@@ -8,7 +8,6 @@ use Psr\Log\LoggerInterface;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Security\Core\User\UserInterface;
-use Doctrine\ORM\Event\LifecycleEventArgs;
 
 /**
  * @ORM\Entity(repositoryClass="App\Domain\Repository\MemberRepository")
@@ -70,6 +69,8 @@ class Member implements UserInterface, \Serializable
 
         $this->roleRep = $roleRep;
         $this->logger = $logger;
+
+        $this->logger->debug("Here we are member!");
 
     }
 
