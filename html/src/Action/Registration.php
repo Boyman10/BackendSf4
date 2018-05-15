@@ -10,6 +10,7 @@ use Psr\Log\LoggerInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Routing\RouterInterface;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
@@ -37,13 +38,15 @@ class Registration
      * @param FormFactoryInterface $formFactory
      * @param ManagerRegistry $doctrine
      * @param RouterInterface $router
+     * @param Session $session
      * @return \Symfony\Component\HttpFoundation\RedirectResponse|\Symfony\Component\HttpFoundation\Response $twig
      */
     public function __invoke(Request $request, UserPasswordEncoderInterface $passwordEncoder,
                              LoggerInterface $logger, RoleRepository $role,
                              RegisterResponderInterface $responder,
                              FormFactoryInterface $formFactory, ManagerRegistry $doctrine,
-                             RouterInterface $router) : Response
+                             RouterInterface $router,
+                             Session $session) : Response
     {
         // 1) build the form
         $user = new Member($role);
@@ -69,6 +72,10 @@ class Registration
 
             // ... do any other work - like sending them an email, etc
             // maybe set a "flash" success message for the user
+            $session->getFlashBag()->add(
+                'notice',
+                'Your changes were saved, you may now log in!'
+            );
 
             return new RedirectResponse($router->generate('login',array()));
         }

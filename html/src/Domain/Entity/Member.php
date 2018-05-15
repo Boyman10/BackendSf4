@@ -4,7 +4,6 @@ namespace App\Domain\Entity;
 
 use App\Domain\Repository\RoleRepository;
 use Doctrine\ORM\Mapping as ORM;
-use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Security\Core\User\UserInterface;
 
@@ -38,7 +37,7 @@ class Member implements UserInterface, \Serializable
     private $username;
 
     /**
-     * @ORM\OneToOne(targetEntity="App\Domain\Entity\Role", cascade={"persist", "remove"})
+     * @ORM\ManyToOne(targetEntity="App\Domain\Entity\Role", cascade={"persist", "remove"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $role;

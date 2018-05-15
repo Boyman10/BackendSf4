@@ -26,4 +26,4 @@ doctrine:
                 type: annotation
                 dir: '%kernel.project_dir%/src/Domain/Entity'
                 prefix: 'App\Domain\Entity'
-                alias: App
+                alias: AppDomain
