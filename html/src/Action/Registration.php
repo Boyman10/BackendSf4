@@ -1,0 +1,74 @@
+<?php
+
+namespace App\Action;
+
+use App\Domain\Entity\Member;
+use App\Domain\Form\RegisterForm;
+use App\Domain\Repository\RoleRepository;
+use App\Responder\RegisterResponderInterface;
+use Psr\Log\LoggerInterface;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
+use Symfony\Component\Form\FormFactoryInterface;
+
+/**
+ * Registration Action
+ * Date: 29/04/2018 - changed to action class now
+ * Time: 17:16
+ * @version 1.2
+ */
+class Registration
+{
+    /**
+     * @Route("/register", name="user_registration")
+     * @Method({"GET", "POST"})
+     * @param Request $request
+     * @param UserPasswordEncoderInterface $passwordEncoder
+     * @param LoggerInterface $logger
+     * @param RoleRepository $role
+     * @param RegisterResponderInterface $responder
+     * @param FormFactoryInterface $formFactory
+     * @return \Symfony\Component\HttpFoundation\RedirectResponse|\Symfony\Component\HttpFoundation\Response $twig
+     */
+    public function __invoke(Request $request, UserPasswordEncoderInterface $passwordEncoder,
+                             LoggerInterface $logger, RoleRepository $role,
+                             RegisterResponderInterface $responder,
+                             FormFactoryInterface $formFactory) : Response
+    {
+        // 1) build the form
+        $user = new Member($logger , $role);
+        $form = $formFactory->create(RegisterForm::class, $user);
+
+        // 2) handle the submit (will only happen on POST)
+        $form->handleRequest($request);
+
+        // Handle the form submission
+        if ($form->isSubmitted() && $form->isValid()) {
+
+            // 3) Encode the password (you could also do this via Doctrine listener)
+            $password = $passwordEncoder->encodePassword($user, $user->getPlainPassword());
+            $user->setPassword($password);
+
+            // 4) save the User!
+            $entityManager = $this->container->getDoctrine()->getManager();
+
+
+            $entityManager->persist($user);
+            $entityManager->flush();
+
+            // ... do any other work - like sending them an email, etc
+            // maybe set a "flash" success message for the user
+
+            return $this->redirectToRoute('login');
+        }
+
+        // Return the new response from responder :
+        return $responder(array('form' => $form->createView()));
+
+    }
+
+
+}
