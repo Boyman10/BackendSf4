@@ -11,14 +11,18 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\Routing\RouterInterface;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 use Symfony\Component\Form\FormFactoryInterface;
+use Doctrine\Common\Persistence\ManagerRegistry;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 
 /**
  * Registration Action
  * Date: 29/04/2018 - changed to action class now
  * Time: 17:16
  * @version 1.2
+ * @see https://github.com/symfony/symfony/blob/master/src/Symfony/Bundle/FrameworkBundle/Controller/AbstractController.php
  */
 class Registration
 {
@@ -31,12 +35,15 @@ class Registration
      * @param RoleRepository $role
      * @param RegisterResponderInterface $responder
      * @param FormFactoryInterface $formFactory
+     * @param ManagerRegistry $doctrine
+     * @param RouterInterface $router
      * @return \Symfony\Component\HttpFoundation\RedirectResponse|\Symfony\Component\HttpFoundation\Response $twig
      */
     public function __invoke(Request $request, UserPasswordEncoderInterface $passwordEncoder,
                              LoggerInterface $logger, RoleRepository $role,
                              RegisterResponderInterface $responder,
-                             FormFactoryInterface $formFactory) : Response
+                             FormFactoryInterface $formFactory, ManagerRegistry $doctrine,
+                             RouterInterface $router) : Response
     {
         // 1) build the form
         $user = new Member($logger , $role);
@@ -53,7 +60,7 @@ class Registration
             $user->setPassword($password);
 
             // 4) save the User!
-            $entityManager = $this->container->getDoctrine()->getManager();
+            $entityManager = $doctrine->getManager();
 
 
             $entityManager->persist($user);
@@ -62,7 +69,7 @@ class Registration
             // ... do any other work - like sending them an email, etc
             // maybe set a "flash" success message for the user
 
-            return $this->redirectToRoute('login');
+            return new RedirectResponse($router->generate('login',array()));
         }
 
         // Return the new response from responder :
