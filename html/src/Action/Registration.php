@@ -62,7 +62,6 @@ class Registration
             // 4) save the User!
             $entityManager = $doctrine->getManager();
 
-
             $entityManager->persist($user);
             $entityManager->flush();
 
