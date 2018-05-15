@@ -1,6 +1,6 @@
 security:
     encoders:
-        App\Entity\Member:
+        App\Domain\Entity\Member:
             algorithm: bcrypt
     # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
     providers:

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33168c80-2fa7-45ed-ae5a-42d9fb3c9877" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/html/src/Action/Registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Action/Registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/html/config/packages/security.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Member.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Member.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,11 +78,20 @@
       <file leaf-file-name="Registration.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Action/Registration.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="612">
               <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
               <folding>
                 <element signature="e#30#59#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/config/packages/security.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -96,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Member.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Member.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Member.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="189" column="46" lean-forward="true" selection-start-line="189" selection-start-column="46" selection-end-line="189" selection-end-column="46" />
+            <state relative-caret-position="250">
+              <caret line="58" column="27" lean-forward="true" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
               <folding>
                 <element signature="e#37#78#0#PHP" expanded="true" />
               </folding>
@@ -142,7 +151,6 @@
         <option value="$PROJECT_DIR$/html/src/Domain/Migrations/Version20180513084842.php" />
         <option value="$PROJECT_DIR$/html/config/packages/doctrine_migrations.yaml" />
         <option value="$PROJECT_DIR$/html/config/packages/doctrine.yaml" />
-        <option value="$PROJECT_DIR$/html/config/packages/security.yaml" />
         <option value="$PROJECT_DIR$/html/src/Action/RegistrationController.php" />
         <option value="$PROJECT_DIR$/html/src/Action/RegisterClientController.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Entity/Client.php" />
@@ -174,6 +182,7 @@
         <option value="$PROJECT_DIR$/html/templates/registration/register.html.twig" />
         <option value="$PROJECT_DIR$/html/src/Action/Registration.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Entity/Member.php" />
+        <option value="$PROJECT_DIR$/html/config/packages/security.yaml" />
       </list>
     </option>
   </component>
@@ -323,6 +332,19 @@
               <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
               <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
@@ -618,7 +640,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101444000" />
+    <option name="totallyTimeSpent" value="101688000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -786,13 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/config/packages/security.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1040,16 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Action/Registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
-          <folding>
-            <element signature="e#30#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Domain/Form/RegisterForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-144">
@@ -1059,11 +1064,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Member.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="189" column="46" lean-forward="true" selection-start-line="189" selection-start-column="46" selection-end-line="189" selection-end-column="46" />
+        <state relative-caret-position="250">
+          <caret line="58" column="27" lean-forward="true" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
           <folding>
             <element signature="e#37#78#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Action/Registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
+          <folding>
+            <element signature="e#30#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/config/packages/security.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
