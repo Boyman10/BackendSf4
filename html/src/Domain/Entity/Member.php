@@ -30,6 +30,7 @@ class Member implements UserInterface, \Serializable
      * the password, but this works well with bcrypt.
      *
      * @ORM\Column(type="string", length=64)
+     * @Assert\NotBlank()
      */
     private $password;
 

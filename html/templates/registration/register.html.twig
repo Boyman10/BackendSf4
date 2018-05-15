@@ -10,7 +10,7 @@
     <div class="container">
 
         <h1>Please fill in the form to get access upon validation of your account</h1>
-    {{ form_start(form) }}
+    {{ form_start(form,{'attr': {'novalidate': 'novalidate'}}) }}
     {{ form_row(form.username) }}
     {{ form_row(form.email) }}
     {{ form_row(form.plainPassword.first) }}
