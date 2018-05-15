@@ -23,7 +23,7 @@ class TicketPerson
     private $person;
 
     /**
-     * @ORM\OneToOne(targetEntity="App\Entity\TicketType", cascade={"persist", "remove"})
+     * @ORM\OneToOne(targetEntity="App\Domain\Entity\TicketType", cascade={"persist", "remove"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $ticketType;

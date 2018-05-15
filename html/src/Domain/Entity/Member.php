@@ -4,7 +4,6 @@ namespace App\Domain\Entity;
 
 use App\Domain\Repository\RoleRepository;
 use Doctrine\ORM\Mapping as ORM;
-use Psr\Log\LoggerInterface;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Security\Core\User\UserInterface;
@@ -57,20 +56,15 @@ class Member implements UserInterface, \Serializable
      */
     private $plainPassword;
 
-    private $logger;
     private $roleRep;
 
     /**
      * Member constructor.
-     * @param LoggerInterface $logger
      * @param RoleRepository $roleRep
      */
-    public function __construct(LoggerInterface $logger, RoleRepository $roleRep) {
+    public function __construct(RoleRepository $roleRep) {
 
         $this->roleRep = $roleRep;
-        $this->logger = $logger;
-
-        $this->logger->debug("Here we are member!");
 
     }
 
@@ -186,8 +180,6 @@ class Member implements UserInterface, \Serializable
     {
         // set up default role in case it s null
         if (!isset($this->role)) {
-            $this->logger->debug("No role define for user being persisted!");
-
             $this->role = $this->roleRep->findOneByRoleName("visitor");
         }
     }

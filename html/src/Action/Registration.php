@@ -46,7 +46,7 @@ class Registration
                              RouterInterface $router) : Response
     {
         // 1) build the form
-        $user = new Member($logger , $role);
+        $user = new Member($role);
         $form = $formFactory->create(RegisterForm::class, $user);
 
         // 2) handle the submit (will only happen on POST)
@@ -54,6 +54,8 @@ class Registration
 
         // Handle the form submission
         if ($form->isSubmitted() && $form->isValid()) {
+
+            $logger->debug("Form is valid, we persist data to DB");
 
             // 3) Encode the password (you could also do this via Doctrine listener)
             $password = $passwordEncoder->encodePassword($user, $user->getPlainPassword());

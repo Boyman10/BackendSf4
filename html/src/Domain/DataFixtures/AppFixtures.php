@@ -4,9 +4,9 @@ namespace App\Domain\DataFixtures;
 
 use App\Domain\Entity\Member;
 use App\Domain\Entity\Role;
+use App\Domain\Repository\RoleRepository;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\Persistence\ObjectManager;
-use Psr\Log\LoggerInterface;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 
 /**
@@ -20,18 +20,18 @@ class AppFixtures extends Fixture
 {
 
     private $encoder;
-    private $logger;
+    private $roleRepository;
 
     /**
      * Enabling Constructor  to load additional service for password encryption
      * AppFixtures constructor.
      * @param UserPasswordEncoderInterface $encoder
-     * @param LoggerInterface $logger
+     * @param RoleRepository $roleRep
      */
-    public function __construct(UserPasswordEncoderInterface $encoder, LoggerInterface $logger)
+    public function __construct(UserPasswordEncoderInterface $encoder, RoleRepository $roleRep)
     {
         $this->encoder = $encoder;
-        $this->logger;
+        $this->roleRepository = $roleRep;
     }
 
     public function load( ObjectManager $manager)
@@ -49,8 +49,9 @@ class AppFixtures extends Fixture
 
 
         // create 1 admin user
-        $member = new Member($this->logger, null);
+        $member = new Member( $this->roleRepository);
         $member->setUsername("toto");
+        $member->setEmail("toto@myemail.com");
         $member->setRole($role);
 
         // Password generation

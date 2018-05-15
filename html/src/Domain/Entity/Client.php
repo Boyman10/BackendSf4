@@ -20,7 +20,7 @@ class Client
     private $id;
 
     /**
-     * @ORM\OneToMany(targetEntity="App\Entity\Address", mappedBy="client", orphanRemoval=true, cascade={"persist"})
+     * @ORM\OneToMany(targetEntity="App\Domain\Entity\Address", mappedBy="client", orphanRemoval=true, cascade={"persist"})
      */
     private $addresses;
 
@@ -30,14 +30,14 @@ class Client
     private $email;
 
     /**
-     * @ORM\OneToOne(targetEntity="App\Entity\Person", cascade={"persist", "remove"})
+     * @ORM\OneToOne(targetEntity="App\Domain\Entity\Person", cascade={"persist", "remove"})
      * @ORM\JoinColumn(nullable=false)
      * @Assert\NotBlank()
      */
     private $person;
 
     /**
-     * @ORM\OneToMany(targetEntity="App\Entity\Basket", mappedBy="client", orphanRemoval=true, cascade={"persist"})
+     * @ORM\OneToMany(targetEntity="App\Domain\Entity\Basket", mappedBy="client", orphanRemoval=true, cascade={"persist"})
      */
     private $baskets;
 
