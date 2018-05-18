@@ -13,5 +13,5 @@ use Symfony\Component\HttpFoundation\Response;
  */
 interface RegisterResponderInterface
 {
-    public function __invoke(FormView $data) : Response;
+    public function __invoke(array $data = null) : Response;
 }
