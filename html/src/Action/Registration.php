@@ -5,6 +5,7 @@ namespace App\Action;
 use App\Domain\Entity\Member;
 use App\Domain\Form\RegisterForm;
 use App\Domain\Repository\RoleRepository;
+use App\Responder\RegisterResponder;
 use App\Responder\RegisterResponderInterface;
 use Psr\Log\LoggerInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
@@ -43,7 +44,7 @@ class Registration
      */
     public function __invoke(Request $request, UserPasswordEncoderInterface $passwordEncoder,
                              LoggerInterface $logger, RoleRepository $role,
-                             RegisterResponderInterface $responder,
+                             RegisterResponder $responder,
                              FormFactoryInterface $formFactory, ManagerRegistry $doctrine,
                              RouterInterface $router,
                              Session $session) : Response
@@ -58,7 +59,7 @@ class Registration
         // Handle the form submission
         if ($form->isSubmitted() && $form->isValid()) {
 
-            $logger->debug("Form is valid, we persist data to DB");
+            $logger->info("Form is valid, we persist data to DB");
 
             // 3) Encode the password (you could also do this via Doctrine listener)
             $password = $passwordEncoder->encodePassword($user, $user->getPlainPassword());

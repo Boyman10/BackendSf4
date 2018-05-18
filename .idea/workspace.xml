@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33168c80-2fa7-45ed-ae5a-42d9fb3c9877" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/html/src/Responder/LoginResponder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Responder/RegisterClientResponder.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Responder/RegisterClientResponder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Action/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Action/Admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Action/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Action/Home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Action/Profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Action/Profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Action/RegisterClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Action/RegisterClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Action/Registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Action/Registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/Action/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Action/SecurityController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,11 +42,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Registration.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SecurityController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Action/SecurityController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="45" column="49" lean-forward="true" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+              <folding>
+                <element signature="e#30#63#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Registration.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/src/Action/Registration.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-390">
-              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+            <state relative-caret-position="103">
+              <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
               <folding>
                 <element signature="e#30#59#0#PHP" expanded="true" />
               </folding>
@@ -48,54 +66,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Action/SecurityController.php">
+      <file leaf-file-name="DefaultResponder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Responder/DefaultResponder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            <state relative-caret-position="70">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginResponder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Responder/LoginResponder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding>
-                <element signature="e#30#90#0#PHP" expanded="true" />
-                <element signature="e#1008#1034#0#PHP" expanded="true" />
+                <element signature="e#675#701#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newclient.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/templates/registration/newclient.html.twig">
+      <file leaf-file-name="RegisterClientResponder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Responder/RegisterClientResponder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/templates/registration/register.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterResponder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Responder/RegisterResponder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-              <folding>
-                <element signature="e#700#733#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterResponderInterface.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Responder/RegisterResponderInterface.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="103">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
               <folding>
                 <element signature="e#33#69#0#PHP" expanded="true" />
               </folding>
@@ -106,21 +102,8 @@
       <file leaf-file-name="DefaultResponderInterface.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Responder/DefaultResponderInterface.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="68">
               <caret line="4" column="20" selection-start-line="4" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterClientResponder.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/src/Responder/RegisterClientResponder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-              <folding>
-                <element signature="e#33#69#0#PHP" expanded="true" />
-                <element signature="e#700#734#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -128,8 +111,8 @@
       <file leaf-file-name="RegisterClient.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Action/RegisterClient.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="273">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="e#30#59#0#PHP" expanded="true" />
               </folding>
@@ -140,10 +123,34 @@
       <file leaf-file-name="Profile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Action/Profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="256">
+              <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
               <folding>
-                <element signature="e#29#73#0#PHP" expanded="true" />
+                <element signature="e#29#64#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Action/Home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <folding>
+                <element signature="e#30#65#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Action/Admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+              <folding>
+                <element signature="e#30#65#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,8 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/src/Domain/Repository/BasketRepository.php" />
-        <option value="$PROJECT_DIR$/html/src/Domain/Repository/ClientRepository.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Repository/ClosingDayRepository.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Repository/MemberRepository.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Repository/PaymentRepository.php" />
@@ -196,10 +201,7 @@
         <option value="$PROJECT_DIR$/html/src/Responder/DefaultResponderInterface.php" />
         <option value="$PROJECT_DIR$/html/src/Action/DefaultController.php" />
         <option value="$PROJECT_DIR$/html/src/Action/Default.php" />
-        <option value="$PROJECT_DIR$/html/src/Action/Admin.php" />
         <option value="$PROJECT_DIR$/html/templates/index.html.twig" />
-        <option value="$PROJECT_DIR$/html/src/Action/Home.php" />
-        <option value="$PROJECT_DIR$/html/src/Action/Profile.php" />
         <option value="$PROJECT_DIR$/html/src/Responder/DefaultResponder.php" />
         <option value="$PROJECT_DIR$/html/webpack.config.js" />
         <option value="$PROJECT_DIR$/html/config/packages/dev/routing.yaml" />
@@ -209,17 +211,22 @@
         <option value="$PROJECT_DIR$/html/src/Domain/Entity/Client.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Entity/TicketPerson.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/DataFixtures/AppFixtures.php" />
-        <option value="$PROJECT_DIR$/html/src/Action/Registration.php" />
         <option value="$PROJECT_DIR$/html/templates/security/login.html.twig" />
         <option value="$PROJECT_DIR$/html/config/packages/doctrine.yaml" />
         <option value="$PROJECT_DIR$/html/src/Domain/Migrations/Version20180513084842.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Entity/Member.php" />
         <option value="$PROJECT_DIR$/html/templates/registration/newclient.html.twig" />
         <option value="$PROJECT_DIR$/html/config/services.yaml" />
-        <option value="$PROJECT_DIR$/html/src/Action/RegisterClient.php" />
         <option value="$PROJECT_DIR$/html/src/Responder/RegisterResponderInterface.php" />
         <option value="$PROJECT_DIR$/html/src/Responder/RegisterResponder.php" />
         <option value="$PROJECT_DIR$/html/src/Responder/RegisterClientResponder.php" />
+        <option value="$PROJECT_DIR$/html/src/Responder/LoginResponder.php" />
+        <option value="$PROJECT_DIR$/html/src/Action/Home.php" />
+        <option value="$PROJECT_DIR$/html/src/Action/Profile.php" />
+        <option value="$PROJECT_DIR$/html/src/Action/Admin.php" />
+        <option value="$PROJECT_DIR$/html/src/Action/SecurityController.php" />
+        <option value="$PROJECT_DIR$/html/src/Action/RegisterClient.php" />
+        <option value="$PROJECT_DIR$/html/src/Action/Registration.php" />
       </list>
     </option>
   </component>
@@ -352,82 +359,74 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="db" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Action" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Action" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Responder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Responder" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="backend.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="registration" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -441,15 +440,16 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/html/src/Responder" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bill\PhpstormProjects\BackendSf4\html\src\Domain" />
       <recent name="C:\Users\bill\PhpstormProjects\BackendSf4\html\src\Action" />
       <recent name="$PROJECT_DIR$/html/public/assets/js" />
       <recent name="$PROJECT_DIR$/html/public/assets" />
       <recent name="$PROJECT_DIR$/html/assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bill\PhpstormProjects\BackendSf4\html\src\Responder" />
+      <recent name="$PROJECT_DIR$/html/src/Responder" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -662,7 +662,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124496000" />
+    <option name="totallyTimeSpent" value="126823000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -674,30 +674,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="611" y="260" width="1554" height="1099" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24357326" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.348226" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32950708" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33924845" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22696929" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32950708" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.31318682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35772356" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22696929" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.348226" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32950708" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32956383" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.18497577" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31318682" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33924845" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -816,7 +828,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/config/packages/security.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="17">
           <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
@@ -886,14 +898,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/templates/security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="289">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Role.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
+        <state relative-caret-position="119">
           <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
         </state>
       </provider>
@@ -915,8 +927,8 @@
     <entry file="file://$PROJECT_DIR$/html/src/Domain/Migrations/Version20180513084842.php" />
     <entry file="file://$PROJECT_DIR$/html/src/Domain/Migrations/Version20180515192203.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="459">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -958,13 +970,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Basket.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Member.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1499">
-          <caret line="160" column="5" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
+        <state relative-caret-position="561">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding>
+            <element signature="e#37#78#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -977,101 +989,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/config/routes.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="68">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Action/Home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Action/Admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/config/services.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Responder/DefaultResponder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/templates/registration/newclient.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/templates/registration/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Action/Profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#29#73#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Action/SecurityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="e#30#90#0#PHP" expanded="true" />
-            <element signature="e#1008#1034#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Action/Registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-          <folding>
-            <element signature="e#30#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Action/RegisterClient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#30#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Responder/RegisterResponder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-          <folding>
-            <element signature="e#700#733#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1085,20 +1011,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Responder/DefaultResponderInterface.php">
+    <entry file="file://$PROJECT_DIR$/html/src/Responder/RegisterResponder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-end-line="5" />
+        <state relative-caret-position="324">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/templates/registration/register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/templates/registration/newclient.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Responder/DefaultResponder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Responder/RegisterClientResponder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
+        <state relative-caret-position="103">
           <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding>
             <element signature="e#33#69#0#PHP" expanded="true" />
-            <element signature="e#700#734#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Responder/DefaultResponderInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Responder/LoginResponder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#675#701#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Action/Home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#30#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Action/Profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+          <folding>
+            <element signature="e#29#64#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Action/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+          <folding>
+            <element signature="e#30#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Action/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="45" column="49" lean-forward="true" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+          <folding>
+            <element signature="e#30#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Action/RegisterClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#30#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Action/Registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+          <folding>
+            <element signature="e#30#59#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -4,6 +4,7 @@ namespace App\Action;
 
 use App\Domain\Entity\Client;
 use App\Domain\Form\NewClientForm;
+use App\Responder\RegisterResponder;
 use App\Responder\RegisterResponderInterface;
 use Psr\Log\LoggerInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
@@ -33,7 +34,7 @@ class RegisterClient
      * @return \Symfony\Component\HttpFoundation\Response $twig
      */
     public function __invoke(Request $request, LoggerInterface $logger,
-                             RegisterResponderInterface $responder,
+                             RegisterResponder $responder,
                              FormFactoryInterface $formFactory, ManagerRegistry $doctrine) : Response
     {
 
@@ -48,7 +49,7 @@ class RegisterClient
         // Handle the form submission
         if ($form->isSubmitted() && $form->isValid()) {
 
-            $logger->debug("Form is valid, we persist data to DB");
+            $logger->info("Form is valid, we persist data to DB");
 
             // 4) save the User and addresses !
             $entityManager = $doctrine->getManager();
