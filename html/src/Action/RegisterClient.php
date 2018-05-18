@@ -57,11 +57,12 @@ class RegisterClient
             $entityManager->flush();
 
             // Return to view with message
-            return $responder(array('message' => "Good on you, the client is added ! Now check the details -- @TODO NEXT"));
+            return $responder(['message' => "Good on you, the client is added ! Now check the details -- @TODO NEXT"]);
         }
 
-
+        $data = ['form' => $form->createView()];
         // Return the new response from responder :
-        return $responder(array('form' => $form->createView()));
+
+        return $responder($data);
     }
 }

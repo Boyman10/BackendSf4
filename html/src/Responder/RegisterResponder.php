@@ -21,13 +21,13 @@ final class RegisterResponder implements RegisterResponderInterface
 
     /**
      * Here we actually render the page using Twig Templating
-     * @param $data
+     * @param FormView $data
      * @return Response
      * @throws \Twig_Error_Loader
      * @throws \Twig_Error_Runtime
      * @throws \Twig_Error_Syntax
      */
-    public function __invoke($data) : Response
+    public function __invoke(FormView $data) : Response
     {
 
         $content = $this->twig->render("registration/register.html.twig", $data);

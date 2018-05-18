@@ -2,6 +2,7 @@
 
 namespace App\Responder;
 
+use Symfony\Component\Form\FormView;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
@@ -12,5 +13,5 @@ use Symfony\Component\HttpFoundation\Response;
  */
 interface RegisterResponderInterface
 {
-    public function __invoke($data) : Response;
+    public function __invoke(FormView $data) : Response;
 }
