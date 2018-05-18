@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33168c80-2fa7-45ed-ae5a-42d9fb3c9877" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/html/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/html/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Action/RegisterClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Action/RegisterClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/src/Responder/RegisterClientResponder.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Responder/RegisterClientResponder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Responder/RegisterResponder.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Responder/RegisterResponder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Responder/RegisterResponderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Responder/RegisterResponderInterface.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,6 +36,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Registration.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Action/Registration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-390">
+              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+              <folding>
+                <element signature="e#30#59#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SecurityController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Action/SecurityController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,10 +82,22 @@
       <file leaf-file-name="RegisterResponder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Responder/RegisterResponder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="487">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding>
-                <element signature="e#694#727#0#PHP" expanded="true" />
+                <element signature="e#700#733#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterResponderInterface.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/src/Responder/RegisterResponderInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="e#33#69#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,32 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultResponder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Responder/DefaultResponder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterResponderInterface.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/src/Responder/RegisterResponderInterface.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding>
-                <element signature="e#33#69#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterClientResponder.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RegisterClientResponder.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/src/Responder/RegisterClientResponder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="292">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
               <folding>
                 <element signature="e#33#69#0#PHP" expanded="true" />
                 <element signature="e#700#734#0#PHP" expanded="true" />
@@ -128,8 +128,8 @@
       <file leaf-file-name="RegisterClient.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Action/RegisterClient.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="36" column="49" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="49" />
+            <state relative-caret-position="442">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="e#30#59#0#PHP" expanded="true" />
               </folding>
@@ -217,9 +217,9 @@
         <option value="$PROJECT_DIR$/html/templates/registration/newclient.html.twig" />
         <option value="$PROJECT_DIR$/html/config/services.yaml" />
         <option value="$PROJECT_DIR$/html/src/Action/RegisterClient.php" />
-        <option value="$PROJECT_DIR$/html/src/Responder/RegisterClientResponder.php" />
-        <option value="$PROJECT_DIR$/html/src/Responder/RegisterResponder.php" />
         <option value="$PROJECT_DIR$/html/src/Responder/RegisterResponderInterface.php" />
+        <option value="$PROJECT_DIR$/html/src/Responder/RegisterResponder.php" />
+        <option value="$PROJECT_DIR$/html/src/Responder/RegisterClientResponder.php" />
       </list>
     </option>
   </component>
@@ -488,7 +488,7 @@
       <workItem from="1526237057611" duration="804000" />
       <workItem from="1526393499464" duration="19322000" />
       <workItem from="1526479785849" duration="615000" />
-      <workItem from="1526656790859" duration="4214000" />
+      <workItem from="1526656790859" duration="4534000" />
     </task>
     <task id="LOCAL-00001" summary="ide settings">
       <created>1524913408437</created>
@@ -651,11 +651,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525015023806</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Still on Responder Argument thing">
+      <created>1526662551946</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1526662551946</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124176000" />
+    <option name="totallyTimeSpent" value="124496000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -675,8 +682,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33924845" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22696929" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33924845" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22696929" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32950708" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31318682" />
@@ -721,7 +728,8 @@
     <MESSAGE value="Successfully loading fixtures into DB" />
     <MESSAGE value="Updating Member entity to include to define Unique fields (asserts - test control)&#10;Then add email field and correct length of password field which is implementing bcrypt encoding" />
     <MESSAGE value="Preparing Registration Form and defining new controller with new route" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparing Registration Form and defining new controller with new route" />
+    <MESSAGE value="Still on Responder Argument thing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Still on Responder Argument thing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -988,38 +996,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Action/Registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-269">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-          <folding>
-            <element signature="e#30#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/config/services.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Action/SecurityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="e#30#90#0#PHP" expanded="true" />
-            <element signature="e#1008#1034#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Responder/DefaultResponderInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -1054,43 +1034,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Action/RegisterClient.php">
+    <entry file="file://$PROJECT_DIR$/html/src/Action/SecurityController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="36" column="49" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="49" />
+        <state relative-caret-position="469">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+          <folding>
+            <element signature="e#30#90#0#PHP" expanded="true" />
+            <element signature="e#1008#1034#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Action/Registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
           <folding>
             <element signature="e#30#59#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/Responder/RegisterClientResponder.php">
+    <entry file="file://$PROJECT_DIR$/html/src/Action/RegisterClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="442">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
-            <element signature="e#33#69#0#PHP" expanded="true" />
-            <element signature="e#700#734#0#PHP" expanded="true" />
+            <element signature="e#30#59#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Responder/RegisterResponder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="487">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding>
-            <element signature="e#694#727#0#PHP" expanded="true" />
+            <element signature="e#700#733#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Responder/RegisterResponderInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="e#33#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Responder/DefaultResponderInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/src/Responder/RegisterClientResponder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#33#69#0#PHP" expanded="true" />
+            <element signature="e#700#734#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

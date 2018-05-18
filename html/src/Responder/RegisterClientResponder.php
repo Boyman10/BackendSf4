@@ -22,7 +22,7 @@ final class RegisterClientResponder implements RegisterResponderInterface
 
     /**
      * Here we actually render the page using Twig Templating
-     * @param FormView $data
+     * @param array $data
      * @return Response
      * @throws \Twig_Error_Loader
      * @throws \Twig_Error_Runtime
