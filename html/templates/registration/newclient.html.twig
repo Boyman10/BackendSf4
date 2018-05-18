@@ -2,21 +2,28 @@
 {# ... you will probably extend your base template, like base.html.twig #}
 {% extends 'base.html.twig' %}
 {% block title %}My cool new client form{% endblock %}
- {%  block stylesheets %}
+ {% block stylesheets %}
      {{ parent() }}
  {% endblock %}
 {% block body %}
 
     <div class="container">
 
-        {{ form_start(form) }}
-        {{ form_widget(form) }}
-        {{ form_end(form) }}
+        {% if form %}
+            {{ form_start(form) }}
+            {{ form_widget(form) }}
+            {{ form_end(form) }}
+        {% endif %}
+
+        {% if message %}
+            {{ message }}
+        {% endif %}
+
     </div>
 {% endblock %}
 
 {% block javascripts %}
-{{ parent() }}
+    {{ parent() }}
     <script type="application/javascript" src="{{ asset('assets/js/address_form.js') }}"></script>
 
 {% endblock %}
