@@ -27,7 +27,7 @@ final class RegisterClientResponder implements RegisterResponderInterface
      * @throws \Twig_Error_Runtime
      * @throws \Twig_Error_Syntax
      */
-    public function __invoke(array $data = null) : Response
+    public function __invoke(array $data) : Response
     {
 
         $content = $this->twig->render("registration/newclient.html.twig", $data);

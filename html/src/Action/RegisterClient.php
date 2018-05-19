@@ -18,7 +18,7 @@ use Symfony\Component\Routing\Annotation\Route;
  * User: bob
  * Date: 01/05/18
  * Time: 17:51
- * @Route("/newclient", name="client_registration", service = "app.register_client")
+ * @Route("/newclient", name="client_registration")
  */
 final class RegisterClient
 {
@@ -91,12 +91,12 @@ final class RegisterClient
             $entityManager->flush();
 
             // Return to view with message
-            return $this->responder(['message' => "Good on you, the client is added ! Now check the details -- @TODO NEXT"]);
+            return ($this->responder)(['message' => "Good on you, the client is added ! Now check the details -- @TODO NEXT"]);
         }
 
         $data = ['form' => $form->createView()];
         // Return the new response from responder :
 
-        return $this->responder($data);
+        return ($this->responder)($data);
     }
 }
