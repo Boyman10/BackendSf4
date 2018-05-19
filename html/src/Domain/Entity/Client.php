@@ -43,7 +43,7 @@ class Client
 
     public function __construct()
     {
-        $this->address = new ArrayCollection();
+        $this->addresses = new ArrayCollection();
         $this->baskets = new ArrayCollection();
     }
 

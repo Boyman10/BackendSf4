@@ -47,7 +47,7 @@ class Address
     private $postcode;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Domain\Entity\Client", inversedBy="address")
+     * @ORM\ManyToOne(targetEntity="App\Domain\Entity\Client", inversedBy="addresses")
      * @ORM\JoinColumn(nullable=false)
      */
     private $client;
