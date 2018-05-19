@@ -27,3 +27,13 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+    App\Responder\RegisterResponder: ~
+    App\Responder\RegisterClientResponder: ~
+
+    # The service registerResponder is injected
+    # when the RegisterResponderInterface type hint is detected
+    App\Responder\RegisterResponderInterface: '@App\Responder\RegisterResponder'
+
+    App\Action\RegisterClient:
+        arguments:
+            $responder: '@App\Responder\RegisterClientResponder'

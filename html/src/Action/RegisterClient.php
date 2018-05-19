@@ -4,7 +4,6 @@ namespace App\Action;
 
 use App\Domain\Entity\Client;
 use App\Domain\Form\NewClientForm;
-use App\Responder\RegisterClientResponder;
 use App\Responder\RegisterResponderInterface;
 use Psr\Log\LoggerInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
@@ -34,7 +33,7 @@ class RegisterClient
      * @return \Symfony\Component\HttpFoundation\Response $twig
      */
     public function __invoke(Request $request, LoggerInterface $logger,
-                             RegisterClientResponder $responder,
+                             RegisterResponderInterface $responder,
                              FormFactoryInterface $formFactory, ManagerRegistry $doctrine) : Response
     {
 

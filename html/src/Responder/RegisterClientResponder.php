@@ -2,7 +2,6 @@
 
 namespace App\Responder;
 
-use Symfony\Component\Form\FormView;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
