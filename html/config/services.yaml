@@ -38,3 +38,7 @@ services:
         public: true
         bind:
             $responder: '@App\Responder\RegisterClientResponder'
+            $logger: '@monolog.logger'
+            $request: '@request_stack'
+            $formFactory: '@form.factory'
+            $doctrine: '@doctrine'

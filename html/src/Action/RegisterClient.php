@@ -9,7 +9,7 @@ use Psr\Log\LoggerInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Symfony\Component\Form\FormFactoryInterface;
-use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -18,6 +18,7 @@ use Symfony\Component\Routing\Annotation\Route;
  * User: bob
  * Date: 01/05/18
  * Time: 17:51
+ * @Route("/newclient", name="client_registration", service = "app.register_client")
  */
 final class RegisterClient
 {
@@ -48,10 +49,10 @@ final class RegisterClient
      * @param FormFactoryInterface $formFactory
      * @param ManagerRegistry $doctrine
      * @param LoggerInterface $logger
-     * @param Request $request
+     * @param RequestStack $request
      */
     public function __construct(RegisterResponderInterface $responder,
-                                Request $request, LoggerInterface $logger,
+                                RequestStack $request, LoggerInterface $logger,
                                 FormFactoryInterface $formFactory,
                                 ManagerRegistry $doctrine)
     {
@@ -59,12 +60,11 @@ final class RegisterClient
         $this->logger = $logger;
         $this->doctrine = $doctrine;
         $this->formFactory = $formFactory;
-        $this->request = $request;
+        $this->request = $request->getCurrentRequest();
     }
 
     /**
      * New Route to let the user fill in details about a client
-     * @Route("/newclient", name="client_registration")
      * @Method({"GET", "POST"})
      * @return \Symfony\Component\HttpFoundation\Response $twig
      */
