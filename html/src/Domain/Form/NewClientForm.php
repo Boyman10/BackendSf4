@@ -27,7 +27,7 @@ class NewClientForm extends AbstractType
         $builder
             ->add('email', EmailType::class)
             ->add('person', PersonType::class)
-            ->add('addresses', CollectionType::class, array(
+            ->add('address', CollectionType::class, array(
                 // looks for choices from this entity
                 'entry_type' => AddressType::class,
                 'entry_options' => array(

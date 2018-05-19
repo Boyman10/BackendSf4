@@ -22,7 +22,7 @@ class Client
     /**
      * @ORM\OneToMany(targetEntity="App\Domain\Entity\Address", mappedBy="client", orphanRemoval=true, cascade={"persist"})
      */
-    private $addresses;
+    private $address;
 
     /**
      * @ORM\Column(type="string", length=150)
@@ -43,7 +43,7 @@ class Client
 
     public function __construct()
     {
-        $this->addresses = new ArrayCollection();
+        $this->address = new ArrayCollection();
         $this->baskets = new ArrayCollection();
     }
 
@@ -55,15 +55,15 @@ class Client
     /**
      * @return Collection|Address[]
      */
-    public function getAddresses(): Collection
+    public function getAddress(): Collection
     {
-        return $this->addresses;
+        return $this->address;
     }
 
     public function addAddress(Address $address): self
     {
-        if (!$this->addresses->contains($address)) {
-            $this->addresses[] = $address;
+        if (!$this->address->contains($address)) {
+            $this->address[] = $address;
             $address->setClient($this);
         }
 
@@ -72,8 +72,8 @@ class Client
 
     public function removeAddress(Address $address): self
     {
-        if ($this->addresses->contains($address)) {
-            $this->addresses->removeElement($address);
+        if ($this->address->contains($address)) {
+            $this->address->removeElement($address);
             // set the owning side to null (unless already changed)
             if ($address->getClient() === $this) {
                 $address->setClient(null);
