@@ -35,5 +35,6 @@ services:
     App\Responder\RegisterResponderInterface: '@App\Responder\RegisterResponder'
 
     App\Action\RegisterClient:
-        arguments:
+        public: true
+        bind:
             $responder: '@App\Responder\RegisterClientResponder'
