@@ -1,8 +1,9 @@
 <?php
 
 namespace App\Action;
-use App\Responder\DefaultResponder;
-use App\Responder\DefaultResponderInterface;
+
+use App\Domain\Repository\PersonRepository;
+use App\Responder\ProfileResponderInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -18,12 +19,22 @@ class Profile
 {
     /**
      * Default method being called
-     * @param DefaultResponderInterface $responder
+     * @param ProfileResponderInterface $responder
      * @param Request $request
+     * @param PersonRepository $personRepository
      * @return Response
      */
-    public function __invoke(Request $request, DefaultResponder $responder) : Response
+    public function __invoke(Request $request, ProfileResponderInterface $responder,
+                             PersonRepository $personRepository): Response
     {
-        return $responder("See myself clear ?");
+
+        $person = $personRepository->find();
+
+        if (!$person) {
+            throw $this->createNotFoundException(
+                'No person found for id '.$id
+            );
+        }
+        return $responder();
     }
 }
