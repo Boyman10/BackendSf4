@@ -24,7 +24,7 @@ class Basket
     private $date;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Domain\Entity\Client")
+     * @ORM\ManyToOne(targetEntity="App\Domain\Entity\Client", inversedBy="baskets")
      * @ORM\JoinColumn(nullable=false)
      */
     private $client;
