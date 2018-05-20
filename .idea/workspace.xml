@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33168c80-2fa7-45ed-ae5a-42d9fb3c9877" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Address.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Address.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Basket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Entity/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Entity/Client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/Domain/Form/NewClientForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/Domain/Form/NewClientForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/assets/js/address_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/public/assets/js/address_form.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Client.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-149">
-              <caret line="112" column="44" lean-forward="true" selection-start-line="112" selection-start-column="44" selection-end-line="112" selection-end-column="44" />
+              <caret line="112" column="44" selection-start-line="112" selection-start-column="44" selection-end-line="112" selection-end-column="44" />
               <folding>
                 <element signature="e#37#85#0#PHP" expanded="true" />
               </folding>
@@ -62,14 +59,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Basket.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Basket.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Basket.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="26" column="83" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="83" />
+            <state relative-caret-position="170">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding>
                 <element signature="e#37#85#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="address_form.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/public/assets/js/address_form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="64" column="58" lean-forward="true" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -87,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/html/src/Domain/Form/NewClientForm.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
               <folding>
                 <element signature="e#35#64#0#PHP" expanded="true" />
               </folding>
@@ -99,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Address.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+              <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -131,15 +137,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterResponder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/src/Responder/RegisterResponder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -160,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/src/Domain/Repository/MemberRepository.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Repository/PaymentRepository.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Repository/PersonRepository.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Repository/RoleRepository.php" />
@@ -211,6 +207,7 @@
         <option value="$PROJECT_DIR$/html/src/Domain/Entity/Client.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Entity/Address.php" />
         <option value="$PROJECT_DIR$/html/src/Domain/Entity/Basket.php" />
+        <option value="$PROJECT_DIR$/html/public/assets/js/address_form.js" />
       </list>
     </option>
   </component>
@@ -360,6 +357,34 @@
               <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
               <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendSf4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendSf4" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -485,7 +510,7 @@
       <workItem from="1526479785849" duration="615000" />
       <workItem from="1526656790859" duration="4534000" />
       <workItem from="1526734346115" duration="9836000" />
-      <workItem from="1526808388910" duration="2048000" />
+      <workItem from="1526808388910" duration="2146000" />
     </task>
     <task id="LOCAL-00001" summary="ide settings">
       <created>1524913408437</created>
@@ -659,7 +684,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140127000" />
+    <option name="totallyTimeSpent" value="140225000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -875,11 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/public/assets/js/address_form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-312" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/var/cache/dev/srcDevDebugProjectContainer.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74010">
@@ -1057,7 +1077,7 @@
     <entry file="file://$PROJECT_DIR$/html/src/Domain/Form/NewClientForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
             <element signature="e#35#64#0#PHP" expanded="true" />
           </folding>
@@ -1067,7 +1087,7 @@
     <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-149">
-          <caret line="112" column="44" lean-forward="true" selection-start-line="112" selection-start-column="44" selection-end-line="112" selection-end-column="44" />
+          <caret line="112" column="44" selection-start-line="112" selection-start-column="44" selection-end-line="112" selection-end-column="44" />
           <folding>
             <element signature="e#37#85#0#PHP" expanded="true" />
           </folding>
@@ -1077,17 +1097,24 @@
     <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Address.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/src/Domain/Entity/Basket.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="26" column="83" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="83" />
+        <state relative-caret-position="170">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
             <element signature="e#37#85#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/public/assets/js/address_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="64" column="58" lean-forward="true" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
         </state>
       </provider>
     </entry>
