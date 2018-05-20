@@ -13,7 +13,7 @@
 
         {{ include('partials/menu.html.twig')}}
 
-        <h1>Welcome to the profile page</h1>
+        <h1>Here upload a profile picture</h1>
 
         <p>Authorized access only</p>
 
@@ -24,24 +24,6 @@
             </p>
         {% endif %}
 
-        {% for profile in person %}
-            <ul>
-                <li>{{ profile.firstname }}</li>
-                <li>{{ profile.lastname }}</li>
-                <li>{{ profile.dateOfBirth }}</li>
-                <li>{{ profile.profilePicture }}</li>
-            </ul>
-        {% endfor %}
-
-        <p><a href="{{ path('admin/upload') }}">Upload a gravatar now</a></p>
-
-        <h2>Administrative links</h2>
-        <p>
-
-            {% if is_granted('ROLE_ADMIN') %}
-                <a href="{{ path('admin') }}">admin interface</a>
-            {% endif %}
-        </p>
 
         <p>More details about authentication : <a href="https://symfony.com/doc/current/security.html#security-user-providers" target="_blank">Symfony</a></p>
     </div>

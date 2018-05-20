@@ -29,8 +29,10 @@ final class ProfileResponder implements ProfileResponderInterface
      */
     public function __invoke($data) : Response
     {
-
-        $content = $this->twig->render("admin/profile.html.twig", $message);
+        // the data contains a Person entity
+        $content = $this->twig->render("admin/profile.html.twig", [
+            'person' => $data
+        ]);
 
         return new Response($content);
     }

@@ -7,6 +7,7 @@ use App\Responder\ProfileResponderInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;
 
 /**
  * Profile page to retrieve current user profile
@@ -17,24 +18,36 @@ use Symfony\Component\Routing\Annotation\Route;
  */
 class Profile
 {
+
     /**
      * Default method being called
-     * @param ProfileResponderInterface $responder
      * @param Request $request
+     * @param ProfileResponderInterface $responder
      * @param PersonRepository $personRepository
+     * @param TokenStorageInterface $tokenStorage
      * @return Response
+     * @throws \Doctrine\ORM\NonUniqueResultException
+     * @throws \Exception
      */
     public function __invoke(Request $request, ProfileResponderInterface $responder,
-                             PersonRepository $personRepository): Response
+                             PersonRepository $personRepository,
+                             TokenStorageInterface $tokenStorage): Response
     {
+        $user = null;
 
-        $person = $personRepository->find();
+        if (isset($tokenStorage)) {
+            $user = $tokenStorage->getToken()->getUser();
+        }
 
-        if (!$person) {
-            throw $this->createNotFoundException(
-                'No person found for id '.$id
+        $person = null;
+
+        if ($user) {
+            $person = $personRepository->findOneByMember($user->getId());
+        } else {
+            throw new \Exception(
+                'No person found for id ' . $user->getId()
             );
         }
-        return $responder();
+        return $responder($person);
     }
 }

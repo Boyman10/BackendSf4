@@ -42,10 +42,10 @@ class PersonRepository extends ServiceEntityRepository
      * @return Person|null
      * @throws \Doctrine\ORM\NonUniqueResultException
      */
-    public function findOneById($value): ?Person
+    public function findOneByMember($value): ?Person
     {
         return $this->createQueryBuilder('p')
-            ->andWhere('p.id = :val')
+            ->andWhere('p.member = :val')
             ->setParameter('val', $value)
             ->getQuery()
             ->getOneOrNullResult()
