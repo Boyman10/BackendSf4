@@ -21,7 +21,6 @@ final class UploadResponder implements UploadResponderInterface
 
     /**
      * Here we actually render the page using Twig Templating
-     * @param $data
      * @return Response
      * @throws \Twig_Error_Loader
      * @throws \Twig_Error_Runtime

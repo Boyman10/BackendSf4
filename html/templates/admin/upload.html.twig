@@ -20,12 +20,12 @@
         {% if is_granted('IS_AUTHENTICATED_FULLY') %}
             <p>Username: {{ app.user.username }}<br/>
             Email : {{ app.user.email }}<br/>
-                Email : {{ app.user.role.roleName }}
+                Role : {{ app.user.role.roleName }}
             </p>
         {% endif %}
 
 
-        <p>More details about authentication : <a href="https://symfony.com/doc/current/security.html#security-user-providers" target="_blank">Symfony</a></p>
+        <p>More details about uploading data : <a href="https://symfony.com/doc/current/controller/upload_file.html" target="_blank">Symfony</a></p>
     </div>
 {% endblock %}
 
